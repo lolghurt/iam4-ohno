@@ -1,0 +1,11 @@
+{
+	"displayName":"Wion's Guawd",
+	"displayNameWithArticle":"the Wion's Guawd",
+	"shipNamePrefix":"WGS",
+	"fleetTypeNames":{
+		"patrolSmall":"Wion's Guawd Wecon",
+		"patrolMedium":"Wion's Guawd Patwow",
+		"patrolLarge":"Wion's Guawd Detachment",
+	},
+
+},

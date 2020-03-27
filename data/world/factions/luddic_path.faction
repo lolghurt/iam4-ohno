@@ -1,0 +1,36 @@
+{
+	"displayName":"Wewdest Path",
+	"displayNameWithArticle":"the Wewdest Path",
+	"shipNamePrefix":"Wewdest",
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Wewdest Wawkew"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Suppwicant"},
+			"fleetCommander":{"name":"Hammew"},
+			"baseCommander":{"name":"Shephewd-miwitant"},
+			"administrator":{"name":"Shephewd-metwopowitan"},
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Wewdest Convoy",
+		"smallTrader":"Wewdic Twadew",
+		"tradeLiner":"Piwgwimage",
+		"tradeSmuggler":"Smuggwew",
+		
+		"patrolSmall":"Wewdic Watchews",
+		"patrolMedium":"Wewdest Fwotiwwa",
+		"patrolLarge":"Wewd Awmada",
+		
+		"inspectionFleet":"Wewdest Awbitew",
+
+		"taskForce":"Wewdest Cwusade",
+	},
+},
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+id,name,faction,desc,script,icon,order
+open_market,"Open
+Market",,"The open mawket. Onwy wegaw goods may be twaded hewe, and twansactions awe subject to tawiffs. Mowe goods awe avaiwabwe when stabiwity is high.
+
+Sewwing enyough of a commodity wiww tempowawiwy wesowve a showtage.",com.fs.starfarer.api.impl.campaign.submarkets.OpenMarketPlugin,,0
+black_market,"Black
+Market",pirates,"The bwack mawket. Anything and evewything can be bought ow sowd, and thewe awe nyo tawiffs. Mowe goods awe avaiwabwe when stabiwity is wow.
+
+Sewwing a commodity wiww nyot wesowve a showtage.
+
+Bwack mawket twansactions may catch the eye of authowities, wesuwting in cawgo scans and weduced faction standing, unwess the twades awe cawwied out with the twanspondew tuwnyed off.
+
+Engaging in wegitimate twade as a ""covew"" awso weduces the pwobabiwity of attwacting the attention of authowities.",com.fs.starfarer.api.impl.campaign.submarkets.BlackMarketPlugin,graphics/factions/black_market.png,999
+storage,Storage,player,Stowage space fow ships and cawgo.,com.fs.starfarer.api.impl.campaign.submarkets.StoragePlugin,graphics/factions/storage.png,1000
+generic_military,,,"Twade with $theFaction miwitawy base.
+
+Weapons and othew miwitawy hawdwawe can be bought and sowd hewe even if they'we iwwegaw on the open mawket. A commission and bettew standing with $theFaction wesuwts in highew-gwade hawdwawe being avaiwabwe.
+
+Wiww buy wocawwy iwwegaw goods as pawt of a nyo-questions-asked buyback pwogwam.
+
+Sewwing enyough of a commodity wiww tempowawiwy wesowve a showtage.",com.fs.starfarer.api.impl.campaign.submarkets.MilitarySubmarketPlugin,,100
+local_resources,"Resource
+Stockpiles",,,com.fs.starfarer.api.impl.campaign.submarkets.LocalResourcesSubmarketPlugin,,200

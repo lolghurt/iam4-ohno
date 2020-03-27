@@ -1,0 +1,15 @@
+{
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"High Hegemon"},
+			"spaceCommander":{"name":"Commandew"},
+		},
+		"posts":{
+			"factionLeader":{"name":"High Hegemon"},
+			"patrolCommander":{"name":"Patwow Commandew"},
+			"fleetCommander":{"name":"Fweet Commandew"},
+			"baseCommander":{"name":"Base Commandew"},
+		},
+	},
+	
+},

@@ -1,0 +1,46 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,icon
+Fwawe Waunchew,flarelauncher,,,,,,,,5,,,,,5,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Decoy Fwawe Waunchew,flarelauncher_fighter,,,,,,,,1,0.033,,,,5,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Decoy Fwawe Waunchew (Singwe),flarelauncher_single,,,,,,,,1,0.033,,,,5,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Active Fwawe Waunchew,flarelauncher_active,,,,,,0.1,,,,,,,5,,,,,,,,,,,graphics/icons/hullsys/active_flare_launcher.png
+Buwn Dwive,burndrive,1,,,,,,,,,2,5,1,10,,,,,,TRUE,TRUE,TRUE,TRUE,TRUE,graphics/icons/hullsys/burn_drive.png
+Pwasma Buwn,microburn,1,,,,,,,2,0.1,0.5,0.5,0.5,,,,,,,,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Manyeuvewing Jets,maneuveringjets,,,,,,,,,,1,5,1,5,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
+Infewnyium Injectow,inferniuminjector,1,,,,,,,,,1,,1,1,TRUE,,,,,,,TRUE,,,graphics/icons/hullsys/infernium_injector.png
+Fast Missiwe Wacks,fastmissileracks,,,,,,0.25,,3,0.1,1,0,0,0,,,,,,,,,,,graphics/icons/hullsys/missile_racks.png
+Fowtwess Shiewd,fortressshield,,,0.025,,,,,,,1.5,,1.5,0,TRUE,,,TRUE,TRUE,,,,,,graphics/icons/hullsys/fortress_shield.png
+High Enyewgy Focus,highenergyfocus,1,,,,,,,3,0.05,0.25,3,0.25,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
+Phase Tewepowtew,phaseteleporter,,,,,,0.2,,,,0.5,0,0.5,,,TRUE,,TRUE,,,,,,,graphics/icons/hullsys/displacer.png
+Phase Skimmew,displacer,,,,,,,,3,0.1,0.25,,0.25,0,,TRUE,,TRUE,,,,,,,graphics/icons/hullsys/displacer.png
+Point Defense Dwonyes,drone_pd,,,,,,,,20,,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Point Defense Dwonyes,drone_pd_x2,,,,,,,,10,,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
+Bowew Dwonyes,drone_borer,,,,,,,,15,,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_borer.png
+Sensow Dwonyes,drone_sensor,,,,,,,,5,,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_sensor.png
+Tewminyatow Dwonye,drone_terminator,,,,,,,,1,0.0333,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Accewewated Ammo Feedew,ammofeed,,,,,,,,,,1,5,1,10,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png
+EMP Emittew,emp,1,,,,,0.2,,,,0.5,4,0.5,3,,,,,TRUE,,,,,,graphics/icons/hullsys/emp_emitter.png
+Missiwe Autofowge,forgevats,,,,,,0.9,,1,,1,0,0,0,,,,,,,,,,,graphics/icons/hullsys/missile_autoforge.png
+Dampew Fiewd,damper,1,,,,,,,2,0.05,0.25,3,0.25,0,,,,,TRUE,,,,TRUE,TRUE,graphics/icons/hullsys/damper_field.png
+Tempowaw Sheww,temporalshell,1,,,,,0.25,,,,4,10,2,10,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
+Quantum Diswuptow,acausaldisruptor,,,,,,0.25,,3,0.05,0.5,,1,,,,,,,,,,,,graphics/icons/hullsys/quantum_disruptor.png
+Entwopy Ampwifiew,entropyamplifier,,,,,,0.2,,,,0.5,10,1,10,,,,,,,,,,,graphics/icons/hullsys/entropy_amplifier.png
+Intewdictow Awway,interdictor,,,,,,0.25,,,,0.5,,0.5,20,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+Minye Stwike,mine_strike,,,,,,0.1,,5,0.2,0.25,,0.25,0,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png
+Cwyofwux Twansducew,cryoflux,,,,,,0.75,,,,0.5,,0.5,,TRUE,,,,,,,,,,graphics/icons/hullsys/quantum_disruptor.png
+Wesewve Depwoyment,reservewing,,,,,,0.5,,,,0.1,,3,30,,,,,,,,,,,graphics/icons/hullsys/reserve_deployment.png
+Tawgeting Feed,targetingfeed,,,,,,0.5,,,,0.5,20,0.5,10,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+Wecaww Device,recalldevice,,,,,,0.5,,,,0.5,,0.5,,,,,,,,,,,,graphics/icons/hullsys/recall_device.png
+Pwasma Jets,plasmajets,,,,,,,,,,1,3,2,5,,,,,,,,,,,graphics/icons/hullsys/infernium_injector.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Phase Cwoak,phasecloak,,,,,,,,,,0.5,,0.5,2,TRUE,,TRUE,TRUE,TRUE,,,,TRUE,,graphics/icons/hullsys/phase_cloak.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Phase Skimmew (Dwonye),skimmer_drone,,,,,,0.05,,3,0.25,0.25,,0.25,,,TRUE,,TRUE,,,,,,,graphics/icons/hullsys/displacer.png
+Degwaded Phase Skimmew,displacer_degraded,,,,,,,,2,0.067,0.25,,0.25,0,,TRUE,,TRUE,,,,,,,graphics/icons/hullsys/displacer.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Fuww Buwn,traveldrive,1,,,,,,,,,2,,2,0,TRUE,,,,TRUE,TRUE,TRUE,TRUE,TRUE,,graphics/icons/hullsys/burn_drive.png
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Missiwe Autofowge,forgevats_station,,,,,,0,,,,1,0,0,30,,,,,,,,,,,graphics/icons/hullsys/missile_autoforge.png
+Mewwon Dwonyes,drone_station_lt,,,,,,,,5,,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Wavewin Dwonyes,drone_station_mid,,,,,,,,3,,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Gawgoywe Dwonyes,drone_station_high,,,,,,,,4,,0,,0,0,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Minye Stwike,mine_strike_station,,,,,,0,,7,0.33,0.25,,0.25,0,,,,,,,,,,,graphics/icons/hullsys/interdictor_array.png

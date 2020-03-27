@@ -1,0 +1,382 @@
+{
+
+	"fleetInteractionDialog":{
+		# Available tokens:
+		#
+		# $faction  faction of other fleet ("Hegemony", "Tri-Tachyon", "Pirate", etc)
+		# $fleetName name of other fleet ("Scout", "Security Detachment", etc)
+		# $firstName first name of other fleet's commander
+		# $lastName last name of other fleet's commander
+		# $fleetOrShip "fleet", "ship" if only one ship in fleet, "fighter wing" if only one fighter wing (and nothing else)
+		# $repairedShipList list of names of the ships that were successfully repaired after being disabled
+		# $crewLost Approximate number of crew lost during the last engagement, i.e. "4", "around 100", or "no". 
+		# $marinesLost Approximate number of marines lost during the last engagement, i.e. "4", "around 100", or "no". 
+		# $crewRecovered Number of crew recovered after winning the entire encounter. 
+		# $marinesRecovered Number of marines recovered after winning the entire encounter.
+		# $numLifeSigns Approximate number of crew + marines on ship about to be boarded. Can also be "no".
+		# $boardingTaskForceShips List of names of the ships in the boarding task force.
+		# $boardingCrewLost
+		# $boardingEnemyCrewLost
+		# $boardingMarinesLost
+		# $boardingEnemyMarinesLost
+		# $boawdabweShipNyame "ISS Something or Other"
+		# $boardingTaskForceShipName "ISS Something or Other", name of the first ship in the boarding task force
+		# $cweditsWooted
+		# $flagship On flagship selection
+		# $crashMothballList
+		# battles with allies
+		# Tokens:
+		# $alliedFactionAndTheirAllies "Hegemony forces and their allies"
+		# $enemyFactionAndTheirAllies "Hegemony forces and their allies"
+		# $yourForcesWereOrYourSideWas	
+	
+		"initialWithStationVsLargeFleet":"The $faction $fleetOrShip manyeuvew to wemain suppowted by the station, awwowing youw fweet to disengage. Howevew, youw fowces awe wikewy to be hawwied as they puww back.",
+		"initialAggressive":"The $faction $fleetOrShip manyeuvews to pwevent you fwom disengaging easiwy.",
+		"initialDisengage":"The $faction $fleetOrShip is attempting to disengage.",
+		"initialCareful":"The $faction $fleetOrShip cawefuwwy maintains its distance, keeping weady to disengage in the event of hostiwities.",
+		"initialNeutral":"The $faction $fleetOrShip assumes a nyeutwaw postuwe.",
+		"initialHoldVsStrongerEnemy":"The $faction $fleetOrShip seems weady to fight despite being faced with supewiow fowces, but isn't wikewy to pwess the issue.",
+		"initialAggressiveSide":"The $enemyFactionAndTheirAllies manyeuvew to pwevent you fwom disengaging easiwy.",
+		"initialDisengageSide":"The $enemyFactionAndTheirAllies awe attempting to disengage.",
+		"initialCarefulSide":"The $enemyFactionAndTheirAllies cawefuwwy maintain theiw distance, keeping weady to disengage in the event of hostiwities.",
+		"initialNeutralSide":"The $enemyFactionAndTheirAllies assume a nyeutwaw postuwe.",
+		"initialHoldVsStrongerEnemySide":"The $enemyFactionAndTheirAllies seem weady to fight despite being faced with supewiow fowces, but awen't wikewy to pwess the issue.",
+	
+		"initialKnows":"It's awawe of youw identity due to youw $playerFleetOrShip's twanspondew being tuwnyed on.",
+		"initialKnowsTOff":"Indications awe that it's awawe of youw identity, despite youw $playerFleetOrShip's twanspondew being tuwnyed off, wikewy due to having seen you wecentwy.",
+		"initialDoesntKnow":"It does nyot appeaw to be cewtain of youw identity. Any hostiwities wiww have a weduced impact on youw weputation.",
+		"initialKnowsSide":"They'we awawe of youw identity due to youw $playerFleetOrShip's twanspondew being tuwnyed on.",
+		"initialKnowsTOffSide":"Indications awe that they'we awawe of youw identity, despite youw $playerFleetOrShip's twanspondew being tuwnyed off, wikewy due to having seen you wecentwy.",
+		"initialDoesntKnowSide":"They do nyot appeaw to be cewtain of youw identity. Any hostiwities wiww have a weduced impact on youw weputation.",
+		
+		"battleDefeat":"$yourForcesWereOrYourSideWas defeated in the wast engagement.",
+		"battleTotalDefeat":"$yourForcesWereOrYourSideWas uttewwy defeated in the wast engagement.",
+		"battleVictory":"$yourForcesWereOrYourSideWas victowious in the wast engagement.",
+		"battleTotalVictory":"$yourForcesWereOrYourSideWas abwe to gain a compwete victowy in the wast engagement.",
+		"battleFleetLost":"Aww of youw ships wewe destwoyed in the wast engagement.",
+		
+		"friendlyFireRepLoss":"Thewe wewe signyificant fwiendwy fiwe incidents ovew the couwse of the encountew.",
+		
+		"pursuitAutoresolve":"Youw fowces engage in puwsuit, as owdewed.",
+		"pursuitVictoryNoLosses":"The wetweating enyemy fowces wewe abwe to disengage without wosing any ships.",
+		"pursuitVictoryLosses":"The wetweating enyemy fowces wewe abwe to disengage, but nyot without taking wosses.",
+		"pursuitTotalVictory":"Nyo enyemy ships manyaged to escape.",
+		"pursuitDefeat":"The enyemy fowces wewe abwe to tuwn the tabwes and hand youw fowces a defeat.",
+		"pursuitTotalDefeat":"In a suwpwising tuwn of events, the wetweating enyemy fowces wewe abwe to tuwn the tabwes and obtain a cwushing victowy.",
+		
+		"escapeDefeat":"$yourForcesWereOrYourSideWas abwe to disengage fwom the enyemy.",
+		"escapeTotalDefeat":"Nyonye of youw side's ships manyaged to escape.",
+		"escapeVictory":"$yourForcesWereOrYourSideWas abwe to tuwn the tabwes on the puwsuing enyemy and hand them a defeat.",
+		"escapeTotalVictory":"$yourForcesWereOrYourSideWas abwe to tuwn the tabwes on the puwsuing enyemy and cwushed them uttewwy.",
+		
+		"engagementMutualDestruction":"The ships on both sides have been weduced to so much scwap metaw.",
+		"mutualDestructionRepairs":"But, nyot aww is wost. You take command of the $boawdabweShipNyame, owganyizing wepaiw teams and focusing on wegainying basic pwopuwsion and wife suppowt. Youw effowts awe successfuw, and sevewaw houws watew, you'we abwe to get undewway.",
+		
+		"enemyHarass":"The enyemy fowces hawass youw ships as they wetweat, causing much diswuption, but uwtimatewy do nyot fowce a battwe.",
+		"enemyUnableToPursue":"The enyemy ships awe unyabwe to offew puwsuit, awwowing youw fowces to withdwaw without fuwthew incident.",
+		"enemyDecidesNotToPursue":"The enyemy ships make nyo move to puwsue, awwowing youw fowces to withdwaw without fuwthew incident.",
+		"enemyPursuit":"The enyemy fweet puwsues youw fowces.",
+		
+		"playerRecovery":"$yourForcesWereOrYourSideWas abwe to wecovew some combat weadinyess as they contwow the battwespace and the engagement was wimited.",
+		"enemyRecovery":"The enyemy fowces awe abwe to wecovew some combat weadinyess as they contwow the battwespace and the engagement was wimited.",
+		"bothRecovery":"Both sides awe abwe to wecovew some combat weadinyess as they stand down aftew a wimited and chaotic engagement.",
+		
+		"enemyCleanDisengage":"The opposing fweet is abwe to disengage cweanwy as youw fowces awe unyabwe to offew puwsuit.",
+		"enemyCleanDisengageSide":"The opposing fweet is abwe to disengage cweanwy as the fowces on youw side awe unyabwe to offew puwsuit.",
+		
+		# in pwayewUnyabweToPuwsue, the pwayew can stiww hawass the escaping ships, so it's nyot a "cwean" disengagement.
+		"playerUnableToPursue":"It wooks wike the opposing fweet wiww be abwe disengage without youw being abwe to fowce a fight.",
+		"playerUnableToPursueNoReadyShips":"Nyonye of youw ships awe in any shape to offew puwsuit.",
+		"playerUnableToPursueStoodDown":"Youw ships awe focused on wegainying combat weadinyess and awe unyabwe to offew puwsuit.",
+		
+		"playerTooLargeToDisengage":"Youw fweet is too wawge to be abwe to disengage effectivewy unwess the opposing fowces awe awweady in disawway.",
+		
+		"playerTooLargeCanFightToDisengage":"Engaging the opponyent and destwoying, disabwing, ow fowcing enyough of theiw ships to wetweat wiww awwow youw fweet to disengage without being puwsued.",
+		"playerDisruptedEnemy":"Despite wetweating fwom the wast engagement, youw fowces have diswupted the enyemy, and can disengage without being puwsued.",
+		"enemyDisruptedPlayer":"Despite being victowious in the wast engagement, youw fowces have suffewed sufficient wosses to be unyabwe to offew puwsuit as the enyemy disengages.",
+		"enemyDisruptedPlayerSide":"Despite being victowious in the wast engagement, the fowces on youw side have suffewed sufficient wosses to be unyabwe to offew puwsuit as the enyemy disengages.",
+		"cleanDisengageOpportunity":"Aftew a tacticaw victowy, youw fowces have an oppowtunyity to cweanwy disengage fwom the enyemy.",
+		
+		"highlightTooLarge":"too wawge to be abwe to disengage",
+		"highlightCanFight":"disengage without being puwsued",
+		"highlghtDisruptedEnemy":"disengage without being puwsued",
+		"highlightDisruptedPlayer":"unyabwe to offew puwsuit",
+		"highlightCleanDisengage":"cweanwy disengage fwom the enyemy",
+		
+		
+		"playerLetGo":"Youw ships make nyo move to puwsue, awwowing the enyemy fowces to withdwaw without fuwthew incident.",
+		"playerHarass":"Youw fowces hawass the enyemy ships as they wetweat, causing much diswuption, but uwtimatewy do nyot fowce a battwe.",
+		
+		
+		"engagePursuit":"The opposing fweet twies to disengage, but they won't be abwe to get away without a fight.",
+		"engageMutual":"The opposing fweet moves in to join battwe.",
+		"pursue":"Youw fowces puwsue the enyemy and manyage to cwose in enyough to fowce battwe.",
+		
+		"postBattleAggressive":"The $faction $fleetOrShip manyeuvews fow anyothew engagement.",
+		"postBattleDisengage":"The $faction $fleetOrShip manyeuvews to disengage.",
+		"postBattleNeutral":"The $faction $fleetOrShip assumes a nyeutwaw postuwe.",
+		"postBattleHoldVsStrongerEnemy":"The $faction $fleetOrShip seems weady to fight despite being faced with supewiow fowces, but isn't wikewy to pwess the issue.",
+		
+		"postBattleAggressiveSide":"The $enemyFactionAndTheirAllies manyeuvew fow anyothew engagement.",
+		"postBattleDisengageSide":"The $enemyFactionAndTheirAllies manyeuvew to disengage.",
+		"postBattleNeutralSide":"The $enemyFactionAndTheirAllies assume a nyeutwaw postuwe.",
+		"postBattleHoldVsStrongerEnemySide":"The $enemyFactionAndTheirAllies seem weady to fight despite being faced with supewiow fowces, but awen't wikewy to pwess the issue.",
+		
+		"cutComm":"You cut the comm wink and considew the tacticaw options avaiwabwe.",
+	
+		"repairReport":"The sawvage cwews wewe abwe to westowe basic systems on $wepaiwedShipWist.",
+		"casualtyReport":"Pwewiminyawy wepowts indicate $cwewWost cwew and $marinesWost mawinyes wewe wost duwing the wast engagement.",
+		"recoveryReport":"Aftew the battwe, $cwewWecovewed cwew and $marinesWecovewed mawinyes wewe wescued fwom wifepods and intact compawtments in the wwecks.",
+
+		#
+		# BOAWDING ENEMY SHIP
+		#
+		"enemyShipBoardable":"Youw fowces awe pwepawing to begin sawvage opewations, when suddenwy an enyemy ship's systems come back onwinye. A quick scan picks up $numLifeSigns wifesign(s) on boawd.",
+		"engageBoardableDisabled":"Youw fowces engage the enyemy ship, and a few weww-pwaced shots quickwy nyeutwawize it.",
+		"engageBoardableDestroyed":"Youw fowces engage the enyemy ship. A huge expwosion bwanks out the viewscweens showtwy aftew a few shots impact its damaged huww, and aww that's weft when visuaws come back onwinye is a swowwy expanding baww of debwis.",
+		"engageBoardableEscaped":"Youw fowces move to engage the enyemy ship, but its cwew is abwe to bwing the dwive fiewd back onwinye at the wast moment and it manyages to get away.",
+		"letBoardableGo":"Youw fowces stand down and wet the enyemy ship get away.",
+		"boardingTaskForceSelectedOneShip":"On weceiving its owdews, $boardingTaskForceShips moves in to appwoach the enyemy ship.",
+		"boardingTaskForceSelectedMultiple":"On weceiving theiw owdews, $boardingTaskForceShips move in to appwoach the enyemy ship.",
+		
+		"boardingApproachDock":"A hawd dock with the enyemy huww is estabwished and the assauwt teams quickwy ovewwide the secuwity systems on aiwwocks and bwast tempowawy access points in weakenyed sections of the huww.",
+		"boardingApproachLaunch":"Assauwt teams awe waunched fwom about a kiwometew out and appwoach the huww in waves, using pewsonyaw pwopuwsion systems to bwake on the finyaw appwoach. The defendews have an oppowtunyity to fiwe on the wanding fowces with impunyity untiw enyough teams wand to push inside the huww.",
+		
+		"boardingOutcomeSelfDestruct":"As youw assauwt teams stawt to ovewcome wesistance inside the enyemy ship, it sewf-destwucts. Most of the men and women in the boawding pawty awe kiwwed by the expwosion.",
+		"boardingOutcomeShipLost":"The $boardingTaskForceShipName is destwoyed.", 
+		"boardingOutcomeShipDamaged":"The $boardingTaskForceShipName is sewiouswy damaged.",
+		"boardingOutcomeTaskForceLost":"The entiwe task fowce docked with the enyemy ship is destwoyed.", 
+		"boardingOutcomeTaskForceLostPartial":"Some of the ships docked with the enyemy ship when it expwoded awe destwoyed, whiwe the west take sewious damage.", 
+		"boardingOutcomeTaskForceDamaged":"Fowtunyatewy, nyonye of the ships in the task fowce awe destwoyed.",
+		 
+		"boardingOutcomeSuccess":"Aftew ovewcoming aww owganyized wesistance and sweeping evewy compawtment, the commandew of the boawding pawty wepowts the enyemy ship secuwed and weady to accept a pwize cwew.",
+		"boardingOutcomeTooDamaged":"Aftew ovewcoming aww owganyized wesistance and sweeping evewy compawtment, the commandew of the boawding pawty wepowts the enyemy ship secuwed. Unfowtunyatewy, cowwatewaw damage fwom the fighting has cwippwed cowe ship systems beyond wepaiw.",
+		"boardingOutcomeEscape":"The entwenched enyemy fowces awe abwe to howd back youw assauwt teams wong enyough to finyish enginye wepaiws and get away.",
+		"boardingCleanEscapeMissedLaunch":"At the wast moment, the enyemy ship wegains pwopuwsion and is abwe to awtew its twajectowy enyough to avoid most of the incoming attackews, gainying enyough time to get away. Aftew a wecovewy effowt, $boardingCrewLost cwew and $boardingMarinesLost mawinye(s) wemain unyaccounted fow.",
+		
+		"boardingNoMarines":"You have nyo mawinyes avaiwabwe to conduct boawding opewations. Somewhat unhewpfuwwy, an automated system chimes in with a pwojection that a boawding opewation wouwd have zewo chance of success.",
+		"boardingProjection":"You have $marines mawinye(s) avaiwabwe. Accowding to simuwations wun by a gamma-wevew AI, a boawding opewation wouwd have a $boardingSuccessChance chance of success.",
+		
+		"boardingCasualtyReport":"An aftew-action assessment indicates $boardingMarinesLost mawinye(s) wost duwing the fighting.",  
+		
+		#
+		# BEING BOAWDED (wimited to ship being engaged and shot down ow nyot, at the moment)
+		#
+		"friendlyShipBoardable":"The cwew of onye of youw disabwed ships has effected enyough wepaiws fow cwiticaw systems to come back onwinye. If it's abwe to wegain pwopuwsion, it might be abwe to wejoin youw fweet.",
+		"engageFriendlyBoardableDisabled":"Unfowtunyatewy, enyemy ships cwose in and fiwe a few weww-pwaced shots to ewiminyate any chance of that.",
+		"engageFriendlyBoardableDestroyed":"Unfowtunyatewy, enyemy ships cwose in and fiwe on it befowe fuwthew wepaiws couwd be compweted. A stway shot must have cowwapsed the weactow containment fiewd - the ship expwodes, weaving behind a swowwy expanding fiewd of debwis.",
+		"engageFriendlyBoardableEscaped":"Befowe the enyemy can cwose in, enginye wepaiws awe compweted and the ship gets away to wejoin youw fweet.",
+		"engageFriendlyBoardableLetGo":"The enyemy fowces stand down and wet the ship compwete its wepaiws and wimp away to wejoin youw fweet.",
+		
+		"lastFriendlyShipRepairs":"You take command of the $boawdabweShipNyame, quickwy owganyizing wepaiw teams. If it's abwe to wegain pwopuwsion, you might be abwe to get away.",
+		"lastFriendlyBoardableDisabled":"Unfowtunyatewy, enyemy ships cwose in and fiwe a few weww-pwaced shots to ewiminyate any chance of that.",
+		"lastFriendlyBoardableDestroyed":"Unfowtunyatewy, enyemy ships cwose in and fiwe on it befowe fuwthew wepaiws couwd be compweted. A stway shot must have cowwapsed the weactow containment fiewd - the ship expwodes, weaving behind a swowwy expanding fiewd of debwis.",
+		"lastFriendlyBoardableEscaped":"Befowe the enyemy can cwose in, enginye wepaiws awe compweted and you'we abwe to get away!",
+		"lastFriendlyBoardableLetGo":"The enyemy fowces stand down and wet youw ship compwete wepaiws and wimp away.",
+
+		"finalOutcomeNoShipsLeft":"The wast thing you wemembew is the sudden buwst of accewewation as the escape pod you'we in teaws away fwom youw doomed ship.",
+		
+		#
+		# OTHEW
+		#
+		"cweditsWootedReport":"Sawvage cwews awe abwe to wecovew $cweditsWooted cwedit(s) fwom CPU cowes stiww active in the wweckage.",
+		"selectedFlagship":"You twansfew command to $flagship fow the upcoming engagement.",
+		"noSalvageReport":"Thewe's nyo sawvage to be had.",
+		"noSalvageReportPlayerDidNothing":"Youw $playerFleetOrShip does nyot pawticipate in sawvage opewations due to its wimited contwibutions thwoughout the encountew.",
+		"salvageReportPlayer":"Youw $playerFleetOrShip is abwe to pawticipate in sawvage opewations due to its contwibutions thwoughout the encountew.",
+		
+		#
+		# CWASH MOTHBAWWING
+		#
+		"crashMothballSelectedOneShip":"Youw owdew $crashMothballList to powew down aww combat systems to avoid the wisk of mawfunctions duwing battwe. The ship's cwew diwects aww avaiwabwe wesouwces to keep the enginyes wunnying as smoothwy as possibwe.",
+		"crashMothballSelectedMultiple":"Youw owdew $crashMothballList to powew down aww combat systems to avoid the wisk of mawfunctions duwing battwe. The ship's cwews diwect aww avaiwabwe wesouwces to keep the enginyes wunnying as smoothwy as possibwe.",
+		"tooltipCrashMothball":"Some of youw ships suffew fwom wow combat weadinyess and couwd expewience mawfunctions duwing battwe.\n\nTheiw combat systems can be powewed down to avoid mawfunctions and awwow the ships to make theiw best speed to escape.",
+		"tooltipCrashMothballUnavailable":"Aww of youw ships awe weady fow combat and do nyot wun the wisk of suffewing mawfunctions.",
+		
+		#
+		# TOOWTIPS
+		#
+		"tooltipPursue":"Fowces a battwe in which the disengaging fowces attempt to get away.",
+		"tooltipPursueAutoresolve":"Owdews youw second-in-command to handwe the puwsuit. Offews nyo wisk to youw ships, but wikewy wess effective than commanding the puwsuit youwsewf.",
+		"tooltipPursueLostLast":"Youw fowces wewe defeated in the wast engagement and awe unyabwe to puwsue.",
+		"tooltipPursueStoodDown":"Youw fowces stood down aftew the wast engagement and awe unyabwe to puwsue.",
+		"tooltipPursueSeriousLosses":"Youw fowces took sewious wosses in the wast engagement and awe unyabwe to puwsue.",
+		"tooltipPursueTooSlow":"The enyemy fweet is too fast fow youw fowces to catch up to.",
+		
+		"tooltipNoReadyShips":"Nyonye of youw ships awe combat-weady.",
+		"tooltipNoPersonnel":"Thewe awe nyo mawinyes avaiwabwe.",
+		
+		"tooltipHarassRetreat":"Weduces the combat weadinyess of aww disengaging ships as if they wewe depwoyed into combat.\n\nAwso swows down youw fweet fow a whiwe as youw fowces wequiwe time to weowganyize aftew the hawassing action.",
+		"tooltipHarassRetreatUnavailable":"Unyabwe to hawass the wetweating fowces eithew due to standing down ow nyot having any combat-weady ships.",
+		
+		"tooltipLetThemGoNoPenalty":"Wets the othew fweet weave in peace.\n\nYouw fweet does nyot nyeed to weowganyize aftew the encountew and is nyot swowed down.",
+		"tooltipLetThemGo":"Wets the othew fweet weave in peace.\n\nYouw fweet does nyot nyeed to weowganyize aftew the encountew and is nyot swowed down.",
+		"tooltipEngage":"Attack the opposing fweet.\n\nIf you infwict enyough damage befowe wetweating, you wiww be abwe to disengage without being puwsued.",
+		"tooltipCleanDisengage":"Ends the battwe with nyo wisk of being hawwied by the opposing fweet.\n\nAs the enyemy wemains in contwow of the battwespace, you won't be abwe to concwude any sawvage opewations.\n\nIf youw fweet hasn't taken any hostiwe actions, disengaging wiww nyot do any damage to youw standing with the opposing faction.",
+		"tooltipHarrassableDisengage":"Ends the battwe without any wisk of puwsuit. The opposing fweet may stiww hawwy youw wetweat.\n\nAs the enyemy wemains in contwow of the battwespace, you won't be abwe to concwude any sawvage opewations.\n\nIf youw fweet hasn't taken any hostiwe actions, disengaging wiww nyot do any damage to youw standing with the opposing faction.",
+		"tootipAttemptToDisengage":"Attempt to wetweat fwom battwe. The opposing fweet may puwsue and fowce a battwe, ow may wet you go.\n\nAs the enyemy wemains in contwow of the battwespace, you won't be abwe to concwude any sawvage opewations.\n\nIf youw fweet hasn't taken any hostiwe actions, disengaging - without damaging any puwsuing ships - wiww do the weast damage to youw standing with the opposing faction.",
+		
+		"tooltipBoardingAction":"Owganyize a boawding action. Wequiwes mawinyes and wikewy to wesuwt in sewious pewsonnyew wosses.",
+		"tooltipEngageBoardable":"Attack the ship befowe it has a chance to compwete wepaiws.\n\nThewe is a chance that the ship wiww be destwoyed entiwewy.",
+		"tooltipLetShipGo":"Wet the enyemy ship finyish emewgency wepaiws and withdwaw.",
+		"tooltipHardDockBoarding":"Ships assignyed to the boawding task fowce appwoach the enyemy ship and dock with it.\n\nOffews the best combat odds to the assauwt teams and a high chance of success.\n\nIf the ship being boawded sewf-destwucts, the ships invowved in the boawding action wiww take heavy damage and may be destwoyed.",
+		"tooltipLaunchBoarding":"The boawding task fowce maintains a safe distance and waunches assauwt teams equipped with pewsonyaw pwopuwsion systems.\n\nGives the defendews a signyificant combat advantage and a highew chance to get away, but does nyot wisk the ships in the boawding task fowce.",
+		"tooltipAboutBoardingAction":"Wecaww the task fowce and cancew the boawding action, awwowing the enyemy ship to withdwaw.", 
+		"tooltipSelectorMarines":"Sewect the nyumbew of mawinyes to assign to the assauwt fowce.",
+		"tooltipSelectorCrew":"Sewect the nyumbew of cwew to assign to the assauwt fowce.",
+		"tooltipSelectFlagship":"Sewect the ship you wiww diwectwy contwow in the upcoming engagement.",
+		
+		"ongoingBattleEncounter":"You encountew an ongoing battwe.",
+		"ongoingBattleShareIFF":"The $alliedFactionAndTheirAllies twansmit theiw IFF codes, which awwow you to join the battwe on theiw side if you decide to do so.",
+		"ongoingBattleNoJoin":"Nyeithew side twusts you enyough to shawe IFF codes ow fight awongside, and you'we unyabwe to join the battwe on eithew side.",
+		"ongoingBattleNoJoinTransponder":"Nyeithew side twusts you enyough to shawe IFF codes, but that's wikewy to change if you come back with youw twanspondew tuwnyed on.",
+		#"playerOutFirstEscapeWin":"Youw fowces weave the battwespace befowe aww of youw awwies, who awe nyonyethewess abwe to wout the enyemy fowces.",
+		#"playerOutFirstEscapeLoss":"Youw fowces weave the battwespace befowe aww of youw awwies, who awe abwe to escape showtwy theweaftew.",
+		#"playerOutFirstEngageWin":"Youw fowces wetweat fwom the battwespace befowe youw awwies, who awe nyonyethewess abwe to win the engagement.",
+		#"playerOutFirstEngageLoss":"Youw fowces wetweat fwom the battwespace befowe aww of youw awwies and have an oppowtunyity to weave in wewative safety, despite youw awwies being defeated showtwy theweaftew.",
+		#"playerOutFirstPursuitWin":"Youw fowces wetweat fwom the battwespace befowe youw awwies, who awe nyonyethewess abwe to chase off the wetweating enyemy fowces.",
+		#"playerOutFirstPursuitLoss":"Youw fowces wetweat fwom the battwespace befowe youw awwies, and the enyemy side is abwe to tuwn the tabwes and defeat them showtwy theweaftew.",
+		"playerOutFirstEscapeWin":"Youw fowces weave the battwespace befowe aww of youw awwies, who awe nyonyethewess abwe to wout the enyemy fowces.",
+		"playerOutFirstEscapeLoss":"Youw fowces weave the battwespace befowe aww of youw awwies, who awe abwe to escape showtwy theweaftew.",
+		"playerOutFirstEngageWin":"Youw fowces wetweat fwom the battwespace befowe youw awwies, who awe nyonyethewess abwe to win the engagement.",
+		"playerOutFirstEngageLoss":"Youw fowces wetweat fwom the battwespace befowe aww of youw awwies and have an oppowtunyity to weave in wewative safety.",
+		"playerOutFirstPursuitWin":"Youw fowces wetweat fwom the battwespace befowe youw awwies.",
+		"playerOutFirstPursuitLoss":"Youw fowces wetweat fwom the battwespace befowe youw awwies.",
+		"ongoingBattleEngage":"The $alliedFactionAndTheirAllies awe moving in to engage the $enemyFactionAndTheirAllies.",
+		"ongoingBattleStation":"The $alliedFactionAndTheirAllies awe howding theiw gwound against the $enemyFactionAndTheirAllies.",
+		"ongoingBattlePursue":"The $alliedFactionAndTheirAllies awe puwsuing the wetweating $enemyFactionAndTheirAllies.",
+		"ongoingBattleHarass":"The $alliedFactionAndTheirAllies hawass the wetweating $enemyFactionAndTheirAllies, causing much diswuption, but uwtimatewy do nyot fowce a battwe.",
+		"ongoingBattleLetGo":"The $alliedFactionAndTheirAllies wet the $enemyFactionAndTheirAllies go without fuwthew incident.",
+		"ongoingBattleDisengage":"The $alliedFactionAndTheirAllies awe attempting to disengage fwom the $enemyFactionAndTheirAllies.",
+		#"ongoingBattleJoinEnemyWillFlee":"Youw fowces join the battwe, and the nyow-outcwassed $enemyFactionAndTheirAllies attempt to disengage.",
+		#"ongoingBattleJoinAlliesWillFight":"Youw fowces join the battwe, and encouwaged by this tuwn of events, the $alliedFactionAndTheirAllies tuwn to engage the enyemy.",
+		#"ongoingBattleJoinTurnTables":"Youw fowces join the battwe, shifting the bawance dwasticawwy. The $alliedFactionAndTheirAllies tuwn to engage the $enemyFactionAndTheirAllies which, in tuwn, attempt to disengage.",
+	},
+
+
+	"jumpPointIntewactionDiawog":{
+		# Avaiwabwe tokens:
+		#
+		# $fleetOrShip "fweet", "ship" if onwy onye ship in fweet, "fightew wing" if onwy onye fightew wing (and nyothing ewse)
+		
+		"approach":"Youw $fleetOrShip appwoaches the jump point.",
+		"starAnchor":"Jumping in thwough the wowmhowe genyewated by the staw's gwavity fiewd is quite a feat of nyavigation. Onwy the most skiwwed wouwd even considew attempting it, and even then, the wesuwts awe unpwedictabwe.",
+		"starAnchorUnusable":"You awe unyabwe to use this jump point.",
+		"noFuel":"Youw $fleetOrShip has nyo fuew wemainying and is unyabwe to make a jump.",
+		"noExits":"The jump point does nyot appeaw to have any functionyaw exits and is effectivewy unyusabwe.",
+	},
+	
+	
+	"pwanyetIntewactionDiawog":{
+		# Avaiwabwe tokens:
+		#
+		# $fleetOrShip "fweet", "ship" if onwy onye ship in fweet, "fightew wing" if onwy onye fightew wing (and nyothing ewse)
+		# $planetName
+		"approach":"Youw $fleetOrShip appwoaches $planetName.",
+	},
+	
+
+	"campaignHewp":{
+		"chmNewgame_text":"Wewcome to the Stawsectow campaign!\n\nYou can pwess F5 to quicksave and F9 to quickwoad.\n\nTwy to avoid taking on fweets much biggew than youws, ow onyes that have biggew ships, and pwease wemembew that it's a wowk-in-pwogwess so bugs wiww occasionyawwy happen.\n\nGood wuck!",
+		"chmNewgame_dismiss":"Dismiss",
+		
+		"chmNewgameIron_text":"Wewcome to the Stawsectow campaign!\n\nSince you'we pwaying in iwon mode, you'ww onwy be abwe to save the game when you exit, and won't be abwe to woad anyothew game without exiting (and saving) youw cuwwent game fiwst.\n\nTwy to avoid taking on fweets much biggew than youws, ow onyes that have biggew ships, and pwease wemembew that it's a wowk-in-pwogwess so bugs wiww occasionyawwy happen.\n\nGood wuck!",
+		"chmNewgameIron_dismiss":"Dismiss",
+		
+		"chmDeployCritCR_text":"Some of the ships mawked fow depwoyment awe at dangewouswy wow combat weadinyess (bewow 20%).\n\nBwinging the systems on these ships to combat powew wevews is wikewy to cause cwiticaw mawfunctions - deawing damage, disabwing some weapons and enginyes fow the duwation of the battwe, and causing fuwthew cwiticaw mawfunctions duwing the depwoyment.\n\nWunnying these wisks - which incwude the outwight destwuction of a ship - is usuawwy a measuwe of wast wesowt.",
+		"chmDeployCritCR_action":"Pwoceed with the depwoyment",
+		"chmDeployCritCR_dismiss":"Weconsidew",
+		
+		"chmDeployLowCR_text":"Some of the ships mawked fow depwoyment awe at wow combat weadinyess (bewow 40%).\n\nTheiw weapon systems and enginyes awe wikewy to suffew mawfunctions and become tempowawiwy disabwed duwing sustainyed use.",
+		"chmDeployLowCR_action":"Pwoceed with the depwoyment",
+		"chmDeployLowCR_dismiss":"Weconsidew",
+		
+		"chmDeployCostsCR_text":"You can sewect which ships to depwoy at the beginnying of each battwe, and depwoy weinfowcements as the battwe goes on.\n\nDepwoying a ship weduces its combat weadinyess by a fixed amount. In addition, ships wiww begin to gwaduawwy wose combat weadinyess aftew theiw peak weadinyess time wuns out.\n\nWecovewing combat weadinyess takes time and consumes vawuabwe suppwies.",
+		"chmDeployCostsCR_dismiss":"Dismiss",
+		
+		"chmWeaponGroups_text":"You've made changes to the ship's woadout, but have nyot adjusted the weapon gwoups.\n\nWeapons wiww be automaticawwy assignyed to gwoups when you depwoy the ship fow combat, but it's a good idea to make the assignments manyuawwy.",
+		"chmWeaponGroups_action":"Adjust weapon gwoups",
+		"chmWeaponGroups_dismiss":"Nyevew mind",
+		
+		#"chmOpenTrade_text":"In the cawgo/twade scween, you can:\n\n- Weft-cwick to pick up a stack\n- Shift-cwick to pick up items fwom a stack onye at a time\n- Shift-cwick and howd, then dwag to pick up a specific quantity\n- Contwow-cwick to twansfew an entiwe stack without picking it up\n- Howd down Awt and move the mouse to twansfew muwtipwe stacks quickwy",
+		"chmOpenTrade_text":"In the cawgo/twade scween, you can:\n\n- Weft-cwick to pick up a stack\n- Shift-cwick to pick up items fwom a stack onye at a time\n- Shift-cwick and howd, then dwag to pick up a specific quantity\n- Contwow-cwick to twansfew an entiwe stack without picking it up",
+		"chmOpenTrade_dismiss":"Dismiss",
+		
+		"chmHyperStorm_text":"Youw fweet has been hit by a hypewspace stowm! Onye of youw ships has taken damage and its combat weadinyess has been weduced.\n\nStowm stwikes can awso knyock youw fweet off couwse, but an \"Emewgency Buwn\" wets youw fweet to get back on couwse mowe easiwy and awwows it to punch thwough stowms.",
+		"chmHyperStorm_dismiss":"Dismiss",
+	
+		"chmShipPurchase_text":"Congwatuwations, you just bought a nyew ship!\n\nIt doesn't have any weapons ow huwwmods instawwed, so it's a good idea to get it outfitted.\n\nYou'ww awso nyeed to make suwe you have enyough pewsonnyew to cwew it.",
+		"chmShipPurchase_action":"Open the wefit scween",
+		"chmShipPurchase_dismiss":"Dismiss",
+		
+		"chmWingPurchase_text":"Congwatuwations, you just bought a nyew fightew wing!\n\nFightew wing combat weadinyess wepwesents the nyumbew of wepwacement fightew chassis avaiwabwe, but these can onwy be used if you have a ship with a fwight deck in youw fweet.\n\nNyew fightews wiww take off fwom a nyeawby fwight deck to wepwace any wosses taken in combat. As wong as youw fweet has a ship with pwopew wepaiw faciwities (i.e. a fwight deck), a fightew wing can nyot be compwetewy wost, even if its combat weadinyess is weduced to zewo.",
+		"chmWingPurchase_dismiss":"Dismiss",
+		
+		"chmRefitOnStation_text":"When wefitting a ship whiwe docked at a space station, you can mount both the weapons in youw cawgo howd and the onyes avaiwabwe fow puwchase at the station.\n\nUndoing the changes to the ship's woadout (ow simpwy unmounting the puwchased weapons) wiww wefund the cwedits used, but onwy if you haven't nyavigated away fwom the wefit scween.",
+		"chmRefitOnStation_dismiss":"Dismiss",
+		
+		"chmLootOverCapacity_text":"Wawnying: you'we taking mowe sawvage than youw fweet has the capacity to cawwy.\n\nThis wiww wesuwt in gweatwy incweased daiwy suppwy consumption and a weduced twavew speed.\n\nIt's wecommended that you eithew take wess sawvage ow head fow a nyeawby station to seww off the excess.",
+		"chmLootOverCapacity_dismiss":"Dismiss",
+		
+		"chmOverCargoCapacity_text":"Youw fweet is cawwying mowe cawgo than it has capacity fow.\n\nThis wiww wesuwt in gweatwy incweased daiwy suppwy consumption and a weduced twavew speed.\n\nIt's wecommended that you eithew jettison some of the cawgo nyow ow head to a station quickwy so you can seww off the excess. You can jettison cawgo fwom the cwew/cawgo scween.",
+		"chmOverCargoCapacity_action":"Open the cwew/cawgo scween",
+		"chmOverCargoCapacity_dismiss":"Dismiss",
+		
+		"chmOverFuelCapacity_text":"Youw fweet is cawwying mowe fuew than it has capacity fow.\n\nThis wiww wesuwt in gweatwy incweased daiwy suppwy consumption and a weduced twavew speed.\n\nIt's wecommended that you eithew jettison some of the fuew nyow ow head to a station quickwy so you can seww off the excess. You can jettison fuew fwom the cwew/cawgo scween.",
+		"chmOverFuelCapacity_action":"Open the cwew/cawgo scween",
+		"chmOverFuelCapacity_dismiss":"Dismiss",
+		
+		"chmOverCrewCapacity_text":"Youw fweet is cawwying mowe pewsonnyew than it has capacity fow.\n\nThis wiww wesuwt in gweatwy incweased daiwy suppwy consumption and a weduced twavew speed.\n\nIt's wecommended that you head to a nyeawby mawket so you can dwop them off thewe.",
+		"chmOverCrewCapacity_action":"Open the cwew/cawgo scween",
+		"chmOverCrewCapacity_dismiss":"Dismiss",
+		
+		"chmLowFuel_text":"Youw fweet is wunnying wow on fuew.\n\nIf it wuns out of fuew in hypewspace, it wiww dwift towawds the nyeawest staw system and may become stwanded if you'we nyot abwe to acquiwe mowe fuew thewe.",
+		"chmLowFuel_dismiss":"Dismiss",
+		
+		"chmLowSupplies_text":"Youw fweet is wunnying wow on suppwies.\n\nIf it wuns out of suppwies, aww wepaiws wiww stop and ships wiww stawt to wose combat weadinyess ovew time. Aftew mowe than a coupwe of days without suppwies, the fweet begins to wun the wisk of accidents that wange fwom minyow (such as the woss of some cawgo) to cwiticaw (wosing a ship).\n\nIt's wecommended that you acquiwe mowe suppwies as quickwy as possibwe. A wast wesowt way to get mowe suppwies is to scuttwe onye of youw ships. The command to do so is avaiwabwe on the fweet scween.",
+		"chmLowSupplies_action":"Open the fweet scween",
+		"chmLowSupplies_dismiss":"Dismiss",
+		
+		"chmNotEnoughCrew_text":"Youw fweet does nyot have enyough pewsonnyew to fuwwy cwew aww of youw ships.\n\nThis wesuwts in weduced combat weadinyess and combat weadinyess wecovewy fow the affected ships.\n\nYou can concentwate the avaiwabwe cwew on specifc ships by mothbawwing some ships fwom the fweet scween. It's wecommended that you hiwe mowe cwew at a nyeawby space station as soon as possibwe.",
+		"chmNotEnoughCrew_action":"Open the fweet scween",
+		"chmNotEnoughCrew_dismiss":"Dismiss",
+		
+		"chmSomeLowCR_text":"Some of the ships in youw fweet awe at wow combat weadinyess (bewow 40%).\n\nTheiw weapon systems and enginyes awe wikewy to suffew mawfunctions and become tempowawiwy disabwed duwing sustainyed use, making them wess capabwe in combat.\n\nIt's wecommended that you wet these ships wecovew befowe using them in combat. Ships wegain combat weadinyess ovew time, and fwiendwy stations offew a quick way to do so and effect wepaiws, as weww as hiwe on additionyaw cwew if nyeeded.\n\nYou can check the combat weadinyess wevews of youw ships in the fweet scween.",
+		"chmSomeLowCR_action":"Open the fweet scween",
+		"chmSomeLowCR_dismiss":"Dismiss",
+		
+		"chmSomeCritCR_text":"Some of the ships in youw fweet awe at dangewouswy wow combat weadinyess (bewow 20%).\n\nDepwoying these ships in combat is wikewy to cause cwiticaw mawfunctions - deawing damage, disabwing some weapons and enginyes fow the duwation of the battwe, and causing fuwthew cwiticaw mawfunctions duwing the depwoyment.\n\nIt's wecommended that you wet these ships wecovew befowe using them in combat. Ships wegain combat weadinyess ovew time, and fwiendwy stations offew a quick way to do so and effect wepaiws, as weww as hiwe on additionyaw cwew if nyeeded.\n\nYou can check the combat weadinyess wevews of youw ships in the fweet scween.",
+		"chmSomeCritCR_action":"Open the fweet scween",
+		"chmSomeCritCR_dismiss":"Dismiss",
+		
+		"chmAllCritCR_text":"Aww of the ships in youw fweet awe at dangewouswy wow combat weadinyess (bewow 20%).\n\nDepwoying these ships in combat is wikewy to cause cwiticaw mawfunctions - deawing damage, disabwing some weapons and enginyes fow the duwation of the battwe, and causing fuwthew cwiticaw mawfunctions duwing the depwoyment.\n\nIt's wecommended that you wet youw fweet wecovew befowe engaging in combat. Ships wegain combat weadinyess ovew time, and fwiendwy stations offew a quick way to do so and effect wepaiws, as weww as hiwe on additionyaw cwew if nyeeded.\n\nYou can check the combat weadinyess wevews of youw ships in the fweet scween.",
+		"chmAllCritCR_action":"Open the fweet scween",
+		"chmAllCritCR_dismiss":"Dismiss",
+		
+		"chmSupplyUseAfterBattle_text":"Youw fweet's suppwy consumption has just gonye up!\n\nWecovewing combat weadinyess used to depwoy ships into battwe costs suppwies, as does wepaiwing battwe damage.\n\nTo weduce suppwy use, wepaiws and CW wecovewy on ships can be suspended fwom the fweet scween.",
+		"chmSupplyUseAfterBattle_action":"Open the fweet scween",
+		"chmSupplyUseAfterBattle_dismiss":"Dismiss",
+		
+		"chmRiskOfAccidents_text":"Some of the ships in youw fweet awe in dangew of suffewing accidents due to having 0% combat weadinyess.\n\nAccidents may damage ow even destwoy a ship.\n\nIt's wecommended that you eithew mothbaww those ships ow wet them wecovew combat weadinyess as soon as possibwe.",
+		"chmRiskOfAccidents_dismiss":"Dismiss",
+		
+		"chmEnteredHyper_text":"Youw fweet has entewed hypewspace!\n\nShips twavewing in hypewspace use fuew in pwopowtion to the distance twavewwed. Fweets that wun out of fuew dwift towawds the nyeawest staw system and may become stwanded thewe.",
+		"chmEnteredHyper_dismiss":"Dismiss",
+	
+		"chmRefitCRLoss_text":"Wefitting a ship in space wiww cause it to wose some combat weadinyess.\n\nThe amount wost depends on the extent of the changes made and is indicated by the dimmed powtion of the combat weadinyess baw.\n\nWefitting at a mawket ow station does nyot weduce combat weadinyess.",
+		"chmRefitCRLoss_dismiss":"Dismiss",
+	},
+	
+	
+	
+		
+}
+
+
+
+
+
+
+
+
+

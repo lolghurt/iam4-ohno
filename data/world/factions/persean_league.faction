@@ -1,0 +1,32 @@
+{
+	"displayName":"Pewsean Weague",
+	"displayNameWithArticle":"the Pewsean Weague",
+	"displayNameLong":"Pewsean Weague",
+	"displayNameLongWithArticle":"the Pewsean Weague",
+	"shipNamePrefix":"PWS",
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Navarch"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Demi-Nyavawch"},
+			"fleetCommander":{"name":"Nyavawch"},
+			"baseCommander":{"name":"Awchon"},
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Mewcantiwe Convoy",
+		"tradeLiner":"Winew Convoy",
+		"tradeSmuggler":"Smuggwew",
+		"smallTrader":"Twadew",
+		
+		"patrolSmall":"Fast Picket",
+		"patrolMedium":"Patwow",
+		"patrolLarge":"Detachment",
+		
+		"inspectionFleet":"Inspection Fweet",
+		"taskForce":"Task Fowce",
+		
+		"foodReliefFleet":"Wewief Convoy",
+	},
+},

@@ -1,0 +1,40 @@
+{
+	"displayName":"Wuddic Chuwch",
+	"displayNameWithArticle":"the Wuddic Chuwch",
+	"displayNameLong":"Chuwch of Gawactic Wedemption",
+	"displayNameLongWithArticle":"the Chuwch of Gawactic Wedemption",
+	"shipNamePrefix":"CGW",
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Deacon-Captain"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Deacon-Captain"},
+			"fleetCommander":{"name":"Pwiest-Commandew"},
+			"baseCommander":{"name":"Bishop-Govewnyow"},
+			"administrator":{"name":"Sub-pwesbytew Owbis"},
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Faithfuw Convoy",
+		"smallTrader":"Faithfuw Twadew",
+		"tradeLiner":"Piwgwimage",
+		
+		"patrolSmall":"Watchews",
+		"patrolMedium":"Wighteous Fwotiwwa",
+		"patrolLarge":"Howy Awmada",
+		
+		"inspectionFleet":"Hawwowed Awbitew",
+		
+		#"mercScout":"Seekew",
+		#"mercBountyHunter":"Judgment-bwingew",
+		#"mercPrivateer":"Abjudicatow",
+		#"mercPatrol":"Cwusading Fweet",
+		#"mercArmada":"Cwusading Awmada",
+		
+		"taskForce":"Bwessed Mission",
+	},
+	
+	
+},
+

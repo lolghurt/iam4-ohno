@@ -1,0 +1,160 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Sanyic Shiewds,advancedshieldemitter,0,,,"defensive, shields",Shields,3000,,,,3,6,9,15,data.hullmods.AcceleratedShieldEmitter,gotta shiewd fast,gotta shiewd fast,graphics/hullmods/accelerated_shields.png
+Pwescwiption Gwasses,advancedoptics,2,,,offensive,Weapons,1000,,,,5,10,15,25,data.hullmods.AdvancedOptics,bzzzzzzz wasews but faw,bzzzzzzz wasews but faw,graphics/hullmods/advanced_optics.png
+Eyes on the Back,turretgyros,0,,,defensive,Weapons,2500,,,,2,4,6,10,data.hullmods.AdvancedTurretGyros,"admit it, you instawwed this just to dab on peopwe","admit it, you instawwed this just to dab on peopwe",graphics/hullmods/advanced_turret_gyros.png
+Spawe Tuwwets,armoredweapons,0,,,defensive,"Weapons, Defenses",2500,,,,3,6,9,15,data.hullmods.ArmoredWeapons,if they bweak just snyap em off and put nyew onyes on,if they bweak just snyap em off and put nyew onyes on,graphics/hullmods/armored_weapon_emplacements.png
+Undewpaid Intewns Wunnying Ewwands,autorepair,2,,,"engines, defensive",Defenses,7500,,,,3,6,9,15,data.hullmods.AutomatedRepairUnit,go get me a coffee and a nyew puwse wasew this onye's fucked buddy,go get me a coffee and a nyew puwse wasew this onye's fucked buddy,graphics/hullmods/automated_repair_unit.png
+Omae Wa Pwevention,auxiliarythrusters,1,,,engines,Engines,5000,TRUE,,,5,10,15,25,data.hullmods.AuxiliaryThrusters,anyime is BANNED in this house,anyime is BANNED in this house,graphics/hullmods/auxilliary_thrusters.png
+Pwivacy Doow Cawds,blast_doors,0,,,defensive,Defenses,2500,TRUE,,,5,10,15,25,data.hullmods.BlastDoors,OCCUPIED,OCCUPIED,graphics/hullmods/blast_doors.png
+Ace Combat on a Budget,converted_hangar,1,,,special,Fighters,5000,,,,0,10,15,20,data.hullmods.ConvertedHangar,"i buiwt these tawons out of bawsa wood do you wike them
+(Yes.)","i buiwt these tawons out of bawsa wood do you wike them
+(Yes.)",graphics/hullmods/converted_hangar.png
+Integwated Tawgeting Cowe,dedicated_targeting_core,0,,,offensive,Weapons,2500,TRUE,,,0,0,15,25,data.hullmods.DedicatedTargetingCore,makes the guns shoot a wittwe bit fawthew,makes the guns shoot a wittwe bit fawthew,graphics/hullmods/targeting_core.png
+That's Why They Caww It a Smawt Bomb,eccm,2,,,"offensive, defensive",Weapons,2500,,,,5,8,15,20,data.hullmods.ECCMPackage,"onye shot, onye kiww","onye shot, onye kiww",graphics/hullmods/eccm_package.png
+Intewnyet,ecm,2,,,"offensive, special","Weapons, Support",4000,,,,10,15,20,25,com.fs.starfarer.api.impl.hullmods.ECMPackage,"typing WOW when they twy to shoot u, unwess they'we bettew twowws than us
+WOW________WOWOWOWOWOW__WOW
+WOW________WOW______WO__WOW
+WOW________WOW______OW__WOW
+WOW________WOW______WO__WOW
+WOW________WOW______OW__WOW
+WOW________WOW______WO__WOW
+WOWOWOWOW__WOWOWOWOWOW__WOWOWOWOW","typing WOW when they twy to shoot u, unwess they'we bettew twowws than us
+WOW________WOWOWOWOWOW__WOW
+WOW________WOW______WO__WOW
+WOW________WOW______OW__WOW
+WOW________WOW______WO__WOW
+WOW________WOW______OW__WOW
+WOW________WOW______WO__WOW
+WOWOWOWOW__WOWOWOWOWOW__WOWOWOWOW",graphics/hullmods/ecm_package.png
+Staw Citizen Fans,expanded_deck_crew,1,,,special,Fighters,4000,,,,5,8,15,20,com.fs.starfarer.api.impl.hullmods.ExpandedDeckCrew,"you'ww push those fightews out by hand and you'ww wike it
+
+nyo i don't have a ""pwace you can cwash"" get a job","you'ww push those fightews out by hand and you'ww wike it
+
+nyo i don't have a ""pwace you can cwash"" get a job",graphics/hullmods/expanded_deck_crew.png
+Big Mags,magazines,1,,,offensive,Weapons,2500,,,,3,5,7,10,data.hullmods.ExpandedMagazines,HAHAHA HE SAID THE THING,HAHAHA HE SAID THE THING,graphics/hullmods/expanded_magazines2.png
+Two fow the Pwice of Onye,missleracks,1,,,offensive,Weapons,5000,,,,8,12,20,30,data.hullmods.ExpandedMissileRacks,onye in the chambew,onye in the chambew,graphics/hullmods/expanded_missile_racks.png
+Wong Bois,extendedshieldemitter,1,,,"shields, defensive",Shields,5000,,,,4,8,12,20,data.hullmods.ExtendedShieldEmitter,"wike a weachawound, but with pwotection","wike a weachawound, but with pwotection",graphics/hullmods/extended_shields.png
+Extwa Shitty Vents,fluxcoil,0,,,special,Special,4000,TRUE,,,4,8,12,20,data.hullmods.FluxCoilAdjunct,this had bettew be a phase ship,this had bettew be a phase ship,graphics/hullmods/flux_coil_adjunct.png
+Extwa Shitty Caps,fluxdistributor,0,,,special,Special,4000,TRUE,,,4,8,12,20,data.hullmods.FluxDistributor,"don't do it, captain","don't do it, captain",graphics/hullmods/flux_distributor.png
+Nyobody Wiww Shoot Us in the Back Anyway,frontemitter,2,,,"shields, defensive",Shields,7000,,,,3,6,10,18,data.hullmods.FrontShieldEmitter,im nyevew wwong,im nyevew wwong,graphics/hullmods/front_shield_emitter.png
+Bettew Than Nyothing,frontshield,0,,,"shields, defensive",Shields,4000,,,,5,10,15,25,data.hullmods.FrontShieldGenerator,momma said awways use pwotection,momma said awways use pwotection,graphics/hullmods/front_shield_generator.png
+Hawd Asses,hardenedshieldemitter,3,,,"shields, defensive",Shields,10000,,,,6,12,18,30,data.hullmods.HardenedShieldEmitter,i waugh at dangew and bweak aww the wuwes,i waugh at dangew and bweak aww the wuwes,graphics/hullmods/hardened_shields.png
+Going fow a Pee Befowe the Battwe,hardened_subsystems,0,,,special,Special,2500,TRUE,,,5,10,15,25,data.hullmods.HardenedSubsystems,i've been hewe fwom the beginnying and i'ww stiww be hewe when aww of you awe dust,i've been hewe fwom the beginnying and i'ww stiww be hewe when aww of you awe dust,graphics/hullmods/hardened_subsystems.png
+Sandbags,heavyarmor,0,,,defensive,Defenses,2500,,,,8,15,20,40,data.hullmods.HeavyArmor,just don't get shot idiot,just don't get shot idiot,graphics/hullmods/heavy_armor.png
+Shoot the Missiwes Fiwst Idiots,pointdefenseai,3,,,defensive,"Weapons, Defenses",10000,,,,4,8,12,20,data.hullmods.IntegratedPointDefenseAI,guns awe fow sewf-defense,guns awe fow sewf-defense,graphics/hullmods/integrated_point_defense_ai.png
+Dedicated Tawgeting Unyit,targetingunit,3,,,offensive,Weapons,10000,,,,4,8,15,25,data.hullmods.IntegratedTargetingUnit,makes the guns shoot kinda fawthew,makes the guns shoot kinda fawthew,graphics/hullmods/integrated_targeting_unit.png
+Nyav Weway,nav_relay,2,,,"engines, special","Engines, Support",5000,,,,10,15,20,25,com.fs.starfarer.api.impl.hullmods.NavRelay,"Nyo Vaywa, you awe NOT stopping me fwom making this joke!","Nyo Vaywa, you awe NOT stopping me fwom making this joke!",graphics/hullmods/nav_relay.png
+Okay They Awe Shooting Us in the Back,adaptiveshields,3,,,"shields, defensive",Shields,7000,,,,6,12,18,30,data.hullmods.OmniShieldEmitter,ok ok i was wwong ok i get it,ok ok i was wwong ok i get it,graphics/hullmods/omni_shield_emitter_mod.png
+Cawwcentwe,operations_center,1,,,special,Special,5000,,,,30,30,30,30,com.fs.starfarer.api.impl.hullmods.OperationsCenter,"pwease howd
+pwease howd
+pwease howd
+pwease howd
+pwease howd","pwease howd
+pwease howd
+pwease howd
+pwease howd
+pwease howd",graphics/hullmods/operations_center.png
+Pod Wacews,recovery_shuttles,1,,,special,Fighters,4000,,,,5,8,15,20,com.fs.starfarer.api.impl.hullmods.RecoveryShuttles,"20 pewcent of the time, it wowks evewytime","20 pewcent of the time, it wowks evewytime",graphics/hullmods/recovery_shuttles.png
+Bwick Shithouse,reinforcedhull,0,,,defensive,Defenses,2500,TRUE,,,5,10,15,30,data.hullmods.ReinforcedBulkheads,"I GET KNOCKED DOWN
+
+BUT I GET UP AGAIN
+
+YOU'WE NEVEW GONNA KEEP ME DOWN I GET KNOCKED DOWN","I GET KNOCKED DOWN
+
+BUT I GET UP AGAIN
+
+YOU'WE NEVEW GONNA KEEP ME DOWN I GET KNOCKED DOWN",graphics/hullmods/reinforced_bulkheads.png
+Biggew Sewage Powt,fluxbreakers,2,,,defensive,"Special, Defenses",7000,,,,3,6,9,15,data.hullmods.FluxBreakers,*fawt nyoises*,*fawt nyoises*,graphics/hullmods/resistant_flux_conduits.png
+Voided Wawwanty,safetyoverrides,0,,,"special, engines, offensive","Special, Engines",2500,TRUE,,,15,30,45,70,data.hullmods.SafetyOverrides,"im pwetty suwe that voids youw wawwanty
+(Nyo, it wawwants youw void.)","im pwetty suwe that voids youw wawwanty
+(Nyo, it wawwants youw void.)",graphics/hullmods/safety_overrides.png
+,,,,,,,,,,,,,,,,,,
+Disabwe Phonye Chawgews,stabilizedshieldemitter,1,,,"shields, defensive",Shields,5000,,,,3,6,9,15,data.hullmods.StabilizedShieldEmitter,i unpwugged the toastew too do you knyow how much powew those things use,i unpwugged the toastew too do you knyow how much powew those things use,graphics/hullmods/stabilized_shields.png
+,,,,,,,,,,,,,,,,,,
+Gotta Go Fast,unstable_injector,0,,,engines,Engines,2500,TRUE,,,5,10,15,25,data.hullmods.UnstableInjector,"Mmm, chiwidogs.","Mmm, chiwidogs.",graphics/hullmods/unstable_injector.png
+,,,,,,,,,,,,,,,,,,
+# wogistics huwwmods,,,,,,,,,,,,,,,,,,
+Cuddwe Puddwe,additional_berthing,0,,,req_spaceport,"Logistics, Requires Dock",3000,TRUE,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.AdditionalBerthing,the concept of pewsonyaw pwivacy didn't suwvive the cowwapse,the concept of pewsonyaw pwivacy didn't suwvive the cowwapse,graphics/hullmods/berthing.png
+Stwategic Sanyic,augmentedengines,1,,,req_spaceport,"Logistics, Requires Dock",8000,,,,8,16,24,40,data.hullmods.AugmentedEngines,gotta go fast but onwy whewe it doesn't mattew,gotta go fast but onwy whewe it doesn't mattew,graphics/hullmods/augmented_drive_field2.png
+Maiwaath Memoiws,auxiliary_fuel_tanks,0,,,req_spaceport,"Logistics, Requires Dock",4000,TRUE,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.AuxiliaryFuelTanks,Maiwaath wiww nyevew wecovew fwom this woast.,Maiwaath wiww nyevew wecovew fwom this woast.,graphics/hullmods/fuel_tanks.png
+Duct Tape,efficiency_overhaul,0,,,req_spaceport,"Logistics, Requires Dock",4000,,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.EfficiencyOverhaul,my othew spaceship is a pwius,my othew spaceship is a pwius,graphics/hullmods/efficiency.png
+Pewsonyaw Wuggage,expanded_cargo_holds,0,,,req_spaceport,"Logistics, Requires Dock",4000,TRUE,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.ExpandedCargoHolds,"wisten i nyeed you to put these in youw suitcase, they onwy wet us bwing back two bottwes pew pewson","wisten i nyeed you to put these in youw suitcase, they onwy wet us bwing back two bottwes pew pewson",graphics/hullmods/expanded_cargo.png
+I Can See My House fwom Hewe,hiressensors,2,,,req_spaceport,"Logistics, Requires Dock",9000,,,,9,9,9,15,data.hullmods.HighResSensors,BUT NOT WAWDO. THIS IS TWUE SUFFEWING.,BUT NOT WAWDO. THIS IS TWUE SUFFEWING.,graphics/hullmods/high_res_sensors.png
+Snyeaky Enginginyes,insulatedengine,0,,,"engines, defensive, req_spaceport","Engines, Logistics, Defenses, Requires Dock",2500,,,,3,6,9,15,data.hullmods.InsulatedEngines,shhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh,shhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh,graphics/hullmods/insulated_engine_assembly.png
+Nyo Booze on Duty,militarized_subsystems,0,,,req_spaceport,"Logistics, Requires Dock",6000,TRUE,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.MilitarizedSubsystems,ocuwd you at weast powetenyed ftyo be pwofitesionyaw,ocuwd you at weast powetenyed ftyo be pwofitesionyaw,graphics/hullmods/militarized_subsystems.png
+Tin Foiw,solar_shielding,2,,,"defensive, req_spaceport","Defenses, Logistics, Requires Dock",5000,,,,3,6,9,15,data.hullmods.SolarShielding,its SPF 50,its SPF 50,graphics/hullmods/solar_shielding2.png
+Apewtuwe Science Division,surveying_equipment,1,,,"special, req_spaceport","Logistics, Requires Dock",5000,,,,5,10,15,25,data.hullmods.SurveyingEquipment,i found this shiny wock isn't it coow,i found this shiny wock isn't it coow,graphics/hullmods/surveying_equipment.png
+,,,,,,,,,,,,,,,,,,
+# standawd buiwt-in huwwmods,,,,,,,,,,,,,,,,,,
+Snyoipah on Boawd,terminator_core,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.TerminatorCore,You awe a missiwe! This means I have a huge damage bonyus! POINT AND DEFEND!,You awe a missiwe! This means I have a huge damage bonyus! POINT AND DEFEND!,graphics/hullmods/terminator_core.png
+This Isn't Even My Finyaw Fowm,shared_flux_sink,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.SharedFluxSink,destwoy me and i wiww wetuwn mowe powewfuw than evew befowe,destwoy me and i wiww wetuwn mowe powewfuw than evew befowe,graphics/hullmods/shared_flux_sink.png
+DON'T FUCKING TOUCH ME,stealth_minefield,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.StealthMinefield,nyewf this,nyewf this,graphics/hullmods/stealth_mines.png
+Don't Fucking Touch Me,stealth_minefield_lt,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.StealthMinefieldLT,nyewf this,nyewf this,graphics/hullmods/stealth_mines.png
+Modew Aiwpwanyes,chassis_storage,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FighterChassisStorage,"Actuawwy, we have an automatic papew pwanye assembwy machinye in the back, too.","Actuawwy, we have an automatic papew pwanye assembwy machinye in the back, too.",graphics/hullmods/expanded_deck_crew.png
+Shiewd Awways On,shield_always_on,,,,,,,,TRUE,TRUE,0,0,0,0,com.fs.starfarer.api.impl.hullmods.ShieldAlwaysOn,i nyevew found out whewe the 'shiewds off' button is and nyow it's too wate to ask,i nyevew found out whewe the 'shiewds off' button is and nyow it's too wate to ask,graphics/hullmods/hardened_shields.png
+Pewiodic Missiwe Wewoad,missile_reload,,,,,,,,TRUE,TRUE,0,0,0,0,com.fs.starfarer.api.impl.hullmods.PeriodicMissileReload,thewe's mowe whewe those came fwom,thewe's mowe whewe those came fwom,graphics/hullmods/hardened_shields.png
+Hidden Gems,shielded_holds,2,,,,,,,TRUE,,5,10,15,30,data.hullmods.ShieldedCargoHolds,"if you'we nyot steawing fwom wowk, you'we steawing fwom youw famiwy","if you'we nyot steawing fwom wowk, you'we steawing fwom youw famiwy",graphics/hullmods/shielded_cargo_hold.png
+Touchy Touchy,repair_gantry,,,,,,,,TRUE,,5,10,20,40,com.fs.starfarer.api.impl.campaign.RepairGantry,"What othew peopwe caww twash, you might awso caww twash, but thewe's awways a chance that in that twash you wiww find a pewiodic quantum wevewsaw wapid capacitows ow hypewion-gwade phase dispwacement device, which awe awso twashÅEBut hey, um, it couwd be wowse. You don't actuawwy want this gawbage and you awe just wooking fow foows to buy it fwom you, wight? Hahaha.","What othew peopwe caww twash, you might awso caww twash, but thewe's awways a chance that in that twash you wiww find a pewiodic quantum wevewsaw wapid capacitows ow hypewion-gwade phase dispwacement device, which awe awso twashÅEBut hey, um, it couwd be wowse. You don't actuawwy want this gawbage and you awe just wooking fow foows to buy it fwom you, wight? Hahaha.",graphics/hullmods/repair_gantry.png
+DIVE DIVE DIVE,phasefield,,,,,,,,TRUE,,0,0,0,0,data.hullmods.PhaseField,they'ww nyevew see me coming,they'ww nyevew see me coming,graphics/hullmods/phase_field.png
+Shucks Fwunt,fluxshunt,,,,,,,,TRUE,,10,20,30,50,data.hullmods.FluxShunt,actuawwy i just pouw the fwux out the window whiwe they'we nyot wooking,actuawwy i just pouw the fwux out the window whiwe they'we nyot wooking,graphics/hullmods/flux_shunt.png
+YOU AWE OUT OF UNyIFOWM SOWDIEW,civgrade,,,,,,,,TRUE,,0,0,0,0,data.hullmods.CivGrade,"Don't have any? You expect me to bewieve that, maggot? The twuth is that you wost an expensive piece of awmy-issue equipment. That suit is going to come out of youw pay, and you awe going to wemain in this mans awmy untiw you awe five hundwed and ten yeaws owd, which is the nyumbew of yeaws it wiww take fow you to pay fow a Mawk II Powewed Combat Awmow you have wost! Wepowt to the awmowy and have a nyew suit issued to you, then wepowt back to me, pwivate! Dismissed!","Don't have any? You expect me to bewieve that, maggot? The twuth is that you wost an expensive piece of awmy-issue equipment. That suit is going to come out of youw pay, and you awe going to wemain in this mans awmy untiw you awe five hundwed and ten yeaws owd, which is the nyumbew of yeaws it wiww take fow you to pay fow a Mawk II Powewed Combat Awmow you have wost! Wepowt to the awmowy and have a nyew suit issued to you, then wepowt back to me, pwivate! Dismissed!",graphics/hullmods/civilian_grade.png
+Expensive Gubbinz,high_maintenance,,,,,,,,TRUE,,0,0,0,0,data.hullmods.HighMaintenance,you gotta fiww the tanks with PWEMIUM antimattew ow it doesn't go,you gotta fiww the tanks with PWEMIUM antimattew ow it doesn't go,graphics/hullmods/high_maintenance.png
+,,,,,,,,,,,,,,,,,,
+Wittwe Wed Wagon,tow_cable,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.campaign.TowCable,how about we aww get out and push,how about we aww get out and push,graphics/hullmods/monofilament_cable.png
+Pawty Van,drive_field_stabilizer,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DriveFieldStabilizer,how about we aww get out and push,how about we aww get out and push,graphics/hullmods/augmented_drive_field.png
+STEEW WAIN,ground_support,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.GroundSupport,youw monyey and youw wife (and youw bwuepwints),youw monyey and youw wife (and youw bwuepwints),graphics/hullmods/ground_support.png
+"Wive Fast, Die Young",delicate,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DelicateMachinery,"The cwew, nyot the ship. How it's awways the biggest swackews and wowst mawathon wunnyews that end up on phase ship is a mystewy.
+Weww, nyot weawwy. It's actuawwy pwetty simpwe. Thewe awe awweady pewiods of downtime in combat. Can you imaginye having thwee times as much fwee time? Phase ships awe the bowwocks.
+Wait, this isn't a phase ship? WHY THE HEWW DIDNíT ANYONE TEWW ME OH SHIT OH FU-","The cwew, nyot the ship. How it's awways the biggest swackews and wowst mawathon wunnyews that end up on phase ship is a mystewy.
+Weww, nyot weawwy. It's actuawwy pwetty simpwe. Thewe awe awweady pewiods of downtime in combat. Can you imaginye having thwee times as much fwee time? Phase ships awe the bowwocks.
+Wait, this isn't a phase ship? WHY THE HEWW DIDNíT ANYONE TEWW ME OH SHIT OH FU-",graphics/hullmods/delicate_machinery.png
+Go Big ow Go Home,hbi,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.HeavyBallisticsIntegration,size mattews,size mattews,graphics/hullmods/ballistics_integration.png
+Skynyet,automated,,,,,,,,TRUE,,0,0,0,0,data.hullmods.Automated,BEEP BOOP DESTWOY AWW HUMANS,BEEP BOOP DESTWOY AWW HUMANS,graphics/hullmods/automated.png
+I Can Shoot My House Fwom Hewe,advancedcore,,,,,,,,TRUE,,0,0,0,0,data.hullmods.AdvancedTargetingCore,"It's simpwe, we kiww Wawdo. And evewyonye ewse. Once you get youw muwdews into statistics wange, he's bound to get caught in the cwossfiwe.","It's simpwe, we kiww Wawdo. And evewyonye ewse. Once you get youw muwdews into statistics wange, he's bound to get caught in the cwossfiwe.",graphics/hullmods/advanced_targeting_core.png
+Make ACGs Mawksman Wifwes Ow Die Twying,supercomputer,,,,,,,,TRUE,,0,0,0,0,data.hullmods.TargetingSupercomputer,makes the guns shoot WEAWWY fuckin faw,makes the guns shoot WEAWWY fuckin faw,graphics/hullmods/targeting_supercomputer.png
+Ace Combat 2 on a Budget,converted_bay,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.ConvertedCargoBay,do you wike these fightews i made them mysewf,do you wike these fightews i made them mysewf,graphics/hullmods/converted_hangar.png
+Chubby Boi,vastbulk,,,,,,,,TRUE,,0,0,0,0,data.hullmods.VastBulk,too big to faiw,too big to faiw,graphics/hullmods/vast_bulk.png
+"Touch Fuzzy, Get Dizzy",axialrotation,,,,,,,,TRUE,,0,0,0,0,data.hullmods.AxialRotation,you spin me wight wound baby wight wound,you spin me wight wound baby wight wound,graphics/hullmods/axial_rotation.png
+Spin Me Wight Wound,anchorrotation,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.AnchorRotation,wike a wecowd baby wight wound wound wound,wike a wecowd baby wight wound wound wound,graphics/hullmods/axial_rotation.png
+Weduced Expwosion,reduced_explosion,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.ReducedExplosion,nyot with a bang but with a whimpew,nyot with a bang but with a whimpew,graphics/hullmods/reduced_explosion.png
+Awways Detaches,always_detaches,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.AlwaysDetaches,get away fwom me,get away fwom me,graphics/hullmods/detach_always.png
+Nyevew Detaches,never_detaches,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.NeverDetaches,don't weave me,don't weave me,graphics/hullmods/detach_never.png
+Nyo Weapon Fwux,no_weapon_flux,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.NoWeaponFlux,i couwd do this aww nyight,i couwd do this aww nyight,
+Do Nyot Fiwe Thwough,do_not_fire_through,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.DoNotFireThrough,"STOP
+PWEASE","STOP
+PWEASE",
+,,,,,,,,,,,,,,,,,,
+# ship skin buffs,,,,,,,,,,,,,,,,,,
+Biwd Wuvws,fourteenth,,,,,,,,TRUE,,0,0,0,0,data.hullmods.Fourteenth,"put a biwd on it
+
+the onyes with the biwds fight bettew
+
+(And they awe even bettew in bed!)","put a biwd on it
+
+the onyes with the biwds fight bettew
+
+(And they awe even bettew in bed!)",graphics/hullmods/fourteenth.png
+Painted It Owange,heg_militarized,,,,,,,,TRUE,,0,0,0,0,data.hullmods.Militarized,and they thwew in a tunyeup fow fwee,and they thwew in a tunyeup fow fwee,graphics/hullmods/militarized_hegemony_auxiliary.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+# pewmanyent ship debuffs,,,,,,,,,,,,,,,,,,
+Papew Mache Awmow,comp_armor,,,,"dmod, damage, damageStruct",,,,TRUE,,0,0,0,0,data.hullmods.CompromisedArmor,wawship cospway,,graphics/hullmods/compromised_armor.png
+Cawdboawd Buwkheads,comp_hull,,,,"dmod, damage, damageStruct",,,,TRUE,,0,0,0,0,data.hullmods.CompromisedHull,5th gwade nyavaw enginyeewing cwass pwoject,,graphics/hullmods/compromised_hull.png
+Bwoken Wegs,degraded_engines,,,,"dmod, damage",,,,TRUE,,0,0,0,0,data.hullmods.DegradedEngines,"what do you caww a wawship with nyo wegs
+
+whatevew you want, she can't catch you",,graphics/hullmods/degraded_engines.png
+Fowk in the Outwet,faulty_grid,,,,"dmod, damage",,,,TRUE,,0,0,0,0,data.hullmods.FaultyPowerGrid,"Ah, shit, ewectwicity is weaking out nyow! Quickwy, someonye pass me a bucket!",,graphics/hullmods/faulty_power_grid.png
+Shiny Mawacas fow Bawwast,unstable_coils,,,,"dmod, phaseDamage",,,,TRUE,,0,0,0,0,data.hullmods.PhaseCoilInstability,CWASH CWATTEW BANG,,graphics/hullmods/phase_coil_instability.png
+Fwimsy Piece of Shit,comp_structure,,,,"dmod, damageStruct, destroyedDamageAlways",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.CompromisedStructure,"Nyo sawvage titwe, wow wightyeawage, owd wady onwy used it to fwy to a moon on Sundays! Pewfect shape, twust me! Iím wipping mysewf off!",,graphics/hullmods/structural_damage.png
+The Entiwe Cwew is Bwind,glitched_sensors,,,,"dmod, damage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.GlitchedSensorArray,I CANT SEE SHIT,,graphics/hullmods/glitched_sensor_array.png
+(unyintewwigibwe mumbwing),malfunctioning_comms,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.MalfunctioningComms,mwghghgnngggnnÅEph'ngwui mgww'nyafh Cthuwhu W'wyeh wgah'nyagw fhtagn... hwbwwbbwwbwwwbwbww...,,graphics/hullmods/malfunctioning_comms.png
+Bought These Fightew Bays fwom AwiExpwess,defective_manufactory,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DefectiveManufactory,it was onwy 3.99 but im suwe itww be ok,,graphics/hullmods/defective_manufactory.png
+Hunguvw Fightew Mechanyics,damaged_deck,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DamagedFlightDeck,"And a hangundew, and a hangsideways, and figgins awe hanging thewe awweady, too.",,graphics/hullmods/damaged_flight_deck.png
+Hewd Togethew with Spit and Pwayews,fragile_subsystems,,,,"dmod, damage, peak_time, notPhase",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FragileSubsystems,its nyot my fauwt i have spaceship asthma,,graphics/hullmods/fragile_subsystems.png
+"Sowwy Captain, Howd's Fuww of Stawsectow Doujinshi and I Ain't Getting Wid of It",comp_storage,,,,"dmod, damage, civOnly",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.CompromisedStorage,"do you knyow how much this shit is gonnya be wowth in 20 cycwes
+(Vaywa, nyo)",,graphics/hullmods/compromised_storage.png
+We'we Fucking Stawving,increased_maintenance,,,,"dmod, damage, civ",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.IncreasedMaintenance,pwease siw may i have anyothew,,graphics/hullmods/increased_maintenance.png
+Weaky Antimattew Buckets,erratic_injector,,,,"dmod, damage, civ",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.ErraticInjector,thewe's a howe in my bucket,,graphics/hullmods/erratic_injector.png
+,,,,,,,,,,,,,,,,,,
+Bwoken Awms,destroyed_mounts,,,,dmod,,,,TRUE,,0,0,0,0,data.hullmods.DestroyedWeaponMounts,ah but mw johnson..how wiww u shoot me..without any guns?,,graphics/hullmods/destroyed_weapon_mounts.png
+What Does This Button Do?,ill_advised,,,,dmod,,,,TRUE,,0,0,0,0,data.hullmods.IllAdvised,"it says DO NOT PWESS, thats a funny thing fow a button that you'we supposed to pwess to say",,graphics/hullmods/illadvised.png

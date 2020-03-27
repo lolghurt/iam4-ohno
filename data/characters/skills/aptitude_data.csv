@@ -1,0 +1,5 @@
+id,name,color,description,order,effect_skill_id,sound1,sound2,sound3
+combat,Combat,"220,94,41,255",Guvwns skiwws that diwectwy impwuv the combat effectivenyess of the piwoted ship.,1,aptitude_combat,combat1,combat2,combat3
+leadership,Weadewship,"107,175,0,255","Guvwns skiwws that impwuv the combat effectivenyess of the fweet as a whowe, and skiwws that impwuv the effectivenyess of fightews.",2,aptitude_leadership,leadership1,leadership2,leadership3
+technology,Technyowogy,"0,121,216,255",Guvwns skiwws that pwimawiwy impwuv the pewfowmance of the fweet in both combat and nyon-combat aweas.,3,aptitude_technology,technology1,technology2,technology3
+industry,Industwy,"175,135,0,255",Guvwns a wange of skiwws to do with sawvaging and expwowation.,4,aptitude_industry,industry1,industry2,industry3

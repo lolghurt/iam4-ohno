@@ -1,0 +1,29 @@
+{
+	# only applies to intel tags
+	
+	"New":{
+		"name":"Nyew",
+	},
+	"Important":{
+		"name":"Impowtant",
+	},
+	"Major events":{
+		"name":"Majow events",
+	},
+	"Local":{
+		"name":"Wocaw",
+	},
+	"Colony threats":{
+		"name":"Cowony thweats",
+	},
+	"Fleet log":{
+		"name":"Fweet wog",
+	},
+	"Story":{
+		"name":"Stowy",
+	},
+
+}
+
+
+

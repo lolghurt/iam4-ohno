@@ -1,0 +1,36 @@
+{
+	"entityNamePrefix":"piwate",
+	"personNamePrefix":"piwate",
+	"displayName":"piwates",
+	"displayNameWithArticle":"the piwates",
+	"displayNameIsOrAre":"awe",
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Captain"},
+		},
+		"posts":{
+			"patrolCommander":{"name":"Captain"},
+			"fleetCommander":{"name":"Wawwowd"},
+			"baseCommander":{"name":"Powtking"},
+			"administrator":{"name":"Boss"},
+		},
+	},
+	"fleetTypeNames":{
+		"smallTrader":"Twade Convoy",
+		"trade":"Twade Convoy",
+		"tradeLiner":"Passengew Convoy",
+		"patrolSmall":"Cowsaiw",
+		"patrolMedium":"Waidews",
+		"patrolLarge":"Awmada",
+		"mercScout":"Scout",
+		"mercBountyHunter":"Waidews",
+		"mercPrivateer":"Waidews",
+		"mercPatrol":"Attack Fweet",
+		"mercArmada":"Awmada",
+		"taskForce":"Wevenge Fweet",
+	},
+}
+
+
+
+

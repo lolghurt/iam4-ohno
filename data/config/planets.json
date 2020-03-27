@@ -1,0 +1,138 @@
+{
+	"nebula_center_old":{
+		"name":"Nyebuwa (Owd)",
+	},
+	"nebula_center_average":{
+		"name":"Nyebuwa",
+	},
+	"nebula_center_young":{
+		"name":"Nyebuwa (Young)",
+	},
+	
+	"star_neutron":{
+		"name":"Nyeutwon Staw",
+	},
+	"black_hole":{
+		"name":"Bwack Howe",
+	},
+	"star_yellow":{
+		"name":"Yewwow Staw",
+	},
+	
+	# Arcadia
+	"star_white":{
+		"name":"White Dwawf",
+	},
+	
+	# Magec
+	"star_blue_giant":{
+		"name":"Bwue Giant",
+	},
+	"star_blue_supergiant":{
+		"name":"Bwue Supewgiant",
+	},
+	
+	# Valhalla
+	"star_orange":{
+		"name":"Owange Staw",
+	},
+	"star_orange_giant":{
+		"name":"Owange Giant",
+	},
+	"star_red_supergiant":{
+		"name":"Wed Supewgiant",
+	},
+	# Askonia (reusable for other stuff)
+	"star_red_giant":{
+		"name":"Wed Giant",
+	},
+	"star_red_dwarf":{
+		"name":"Wed Dwawf",
+	},
+	"star_browndwarf":{
+		"name":"Bwown Dwawf",
+	},
+	"lava":{
+		"name":"Vowcanyic",
+	},
+	"lava_minor":{
+		"name":"Vowcanyic",
+	},	
+	"frozen":{
+		"name":"Frozen",
+	},
+	"frozen1":{
+		"name":"Fwozen",
+	},
+	"frozen2":{
+		"name":"Fwozen",
+	},
+	"frozen3":{
+		"name":"Fwozen",
+	},
+	"barren":{
+		"name":"Bawwen",
+	},
+	"barren_castiron":{
+		"name":"Bawwen",
+	},
+	"barren2":{
+		"name":"Bawwen",
+	},
+	"barren3":{
+		"name":"Bawwen",
+	},
+	"barren_venuslike":{
+		"name":"Bawwen",
+	},
+	"jungle":{
+		"name":"Jungwe",
+	},	
+	"terran":{
+		"name":"Tewwan",
+	},
+	"desert":{
+		"name":"Desewt",
+	},	
+	"desert1":{
+		"name":"Desewt",
+	},	
+	"arid":{
+		"name":"Awid",
+	},
+	"cryovolcanic":{
+		"name":"Cwyovowcanyic",
+	},	
+	"rocky_metallic":{ #Sindria
+		"name":"Wocky Metawwic",
+	},
+	"rocky_unstable":{ #Cruor
+		"name":"Wocky Unstabwe",	
+	},
+	"water":{
+		"name":"Watew",
+	},
+	"rocky_ice":{
+		"name":"Wocky Ice",
+	},
+	"irradiated":{
+		"name":"Iwwadiated",
+	},	
+	"barren-bombarded":{
+		"name":"Bawwen-Bombawded",
+	},
+	"tundra":{
+		"name":"Tundwa",
+	},
+	"barren-desert":{
+		"name":"Bawwen-Desewt",
+	},
+	"terran-eccentric":{
+		"name":"Tewwan Eccentwic",
+	},
+}
+
+
+
+
+

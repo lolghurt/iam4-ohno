@@ -1,0 +1,28 @@
+{
+	"displayName":"Sindwian Diktat",
+	"displayNameWithArticle":"the Sindwian Diktat",
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Wion of Sindwia"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Wion of Sindwia"},
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Mewcantiwe Convoy",
+		"tradeLiner":"Winew Convoy",
+		"smallTrader":"Twadew",
+		
+		"patrolSmall":"Fast Picket",
+		"patrolMedium":"Patwow",
+		"patrolLarge":"Detachment",
+		
+		"inspectionFleet":"Intewnyaw Secuwity Fweet",
+		"taskForce":"Task Fowce",
+		
+		"foodReliefFleet":"Rewief Convoy",
+	},
+},
+
+

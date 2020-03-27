@@ -1,0 +1,40 @@
+{
+	"displayName":"Twi-Tachyon",
+	"displayNameWithArticle":"Twi-Tachyon",
+	"displayNameLong":"Twi-Tachyon Cowpowation",
+	"displayNameLongWithArticle":"the Twi-Tachyon Cowpowation",
+	"ranks":{
+		"ranks":{
+			"spaceCommander":{"name":"Opewation Manyagew"},
+			"factionLeader":{"name":"CEO"},
+		},
+		"posts":{
+			"factionLeader":{"name":"CEO"},
+			"patrolCommander":{"name":"Patwow Diwectow"},
+			"fleetCommander":{"name":"Fweet Diwectow"},
+			"baseCommander":{"name":"Base Diwectow"},
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Cowpowate Twadew",
+		"tradeLiner":"TwiWay Spacewinye Fwight",
+		"tradeSmuggler":"Expedited Twadew",
+		"smallTrader":"Distwibution Convoy",
+		
+		"patrolSmall":"Secuwity Patwow",
+		"patrolMedium":"Secuwity Fwotiwwa",
+		"patrolLarge":"Capitaw Assuwance Fweet",
+		
+		"inspectionFleet":"QA Inspectow",
+		"taskForce":"Speciaw Affaiws Fweet",
+		
+		"foodReliefFleet":"Rewief Convoy",
+		
+		#"mercScout":"Contract Scout",
+		#"mercBountyHunter":"Human Recovery Contractor",
+		#"mercPrivateer":"Security Contractor",
+		#"mercPatrol":"Contracted Patrol",
+		#"mercArmada":"Contracted Armada",
+	}
+},
+

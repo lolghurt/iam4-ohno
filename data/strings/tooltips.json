@@ -1,0 +1,148 @@
+{
+	"codex":{
+		"damage_kinetic":{
+			"title":"Kinyetic Damage",
+			"body":"Kinyetic damage is gweat against shiewds, but poow against awmow.",
+		},
+		"damage_highexplosive":{
+			"title":"High Expwosive Damage",
+			"body":"High expwosive damage is gweat against awmow, but poow against shiewds.",
+		},
+		"damage_fragmentation":{
+			"title":"Fwagmentation Damage",
+			"body":"Fwagmentation damage is vewy poow against both awmow and shiewds. Howevew, weapons deawing fwagmentation damage usuawwy have a vewy high DPS, making them devastating vs wightwy-awmowed, unshiewded tawgets such as wight fightews and missiwes.\n\nIt can awso be highwy effective against a ship whose awmow is stwipped away by battwe damage.",
+		}, 
+		"damage_energy":{
+			"title":"Enyewgy Damage",
+			"body":"Enyewgy damage is equawwy effective against shiewds and awmow.",
+		},
+		"damage_other":{
+			"title":"Othew Damage",
+			"body":"This weapon is speciaw. In weawity, though, if you'we seeing this, it's pwobabwy a bug.",
+		}, 
+	},
+	"warroom":{
+		#"fleetPoints":{
+		#	"title":"Depwoyment points",
+		#	"body":"You nyeed avaiwabwe depwoyment points to depwoy youw wesewves into battwe. Wetweating ow wosing ships gives you back the points used to depwoy them.",
+		#},
+		#"commandPoints":{
+		#	"title":"Command Points",
+		#	"body":"You nyeed command points to cweate assignments and give diwect owdews to youw fweet.\n\nOnce you wun out, you won't be abwe to give any mowe owdews, but can stiww owdew youw fweet to engage the enyemy at wiww by cancewwing aww existing assignments.\n\nYou gain a few command points evewy time youw fowces captuwe an objective.",
+		#},
+		"pause":{
+			"title":"Pause",
+			"body":"Pauses the game.",
+		},
+		"play":{
+			"title":"Unpause",
+			"body":"Unpauses the game.",
+		},
+		"combatTime":"Time ewapsed with both fweets in contact with each othew.\n\nThe peak pewfowmance time of weinfowcements is weduced by hawf of the combat time.",
+	},
+	
+	"fleetScreen":{
+		"tooltipCaptain":{
+			"title":"Assign Captain",
+			"body":"Assign a captain (youwsewf ow an officew) to this ship. The ship wiww benyefit fwom the captain's skiwws.",
+		},
+		"tooltipAdmin":{
+			"title":"Assign Adminyistwatow",
+			"body":"Assign an adminyistwatow (ow youwsewf) to guvwn this cowony, which wiww then benyefit fwom the assignyed adminyistwatow's skiwws.",
+		},
+		"tooltipAdminNonPlayer":{
+			"title":"Adminyistwatow",
+			"body":"This cowony is nyot guvwnyed by an adminyistwatow of any nyote.",
+		},
+		"tooltipBuy":{
+			"title":"Buy",
+			"body":"Buy this %s fow %d cwedits.",
+		},
+		"tooltipSell":{
+			"title":"Seww",
+			"body":"Seww this %s fow %d cwedits.",
+		},
+		"tooltipTake":{
+			"title":"Take",
+			"body":"Take this %s.",
+		},
+		"tooltipGive":{
+			"title":"Stowe",
+			"body":"Twansfew this %s fwom youw fweet. Its combat weadinyess wiww wemain unchanged whiwe it's in stowage.",
+		},
+		"tooltipMothball":{
+			"title":"Mothbaww",
+			"body":"Mothbawwed %ss can't be used in combat ow wepaiwed, and do nyot pwovide any fuew, cawgo, ow pewsonnyew capacity.\n\nMothbawwing a ship wiww weduce its combat weadinyess to zewo; westowing it wiww wequiwe time and suppwies.",
+		},
+		"tooltipUnmothball":{
+			"title":"Mothbaww",
+			"body":"Mothbawwed %ss can't be used in combat ow wepaiwed, and do nyot pwovide any fuew, cawgo, ow pewsonnyew capacity.\n\nWestowing this ship's combat weadinyess aftew unmothbawwing it wiww consume %s suppwies uvw %s day(s).",
+		},
+		"tooltipScuttle":{
+			"title":"Scuttwe",
+			"body":"Stwip this %s of anything usefuw, gainying %d suppwies, %d fuew, and %d heavy machinyewy.",
+		},
+		"tooltipSuspendRepairs":{
+			"title":"Suspend Wepaiws & Wecuvwy",
+			"body":"Pwevents this %s fwom pewfowming wepaiws ow wecuvwing combat weadinyess. Fuww wepaiws and CW wecuvwy wiww consume appwoximatewy %s suppwies uvw %s days if awwowed to pwoceed.",
+		},
+		"tooltipSuspendRepairsNotNeeded":{
+			"title":"Suspend Wepaiws & Wecuvwy",
+			"body":"Pwevents this %s fwom pewfowming wepaiws ow wecuvwing combat weadinyess. This %s does nyot cuwwentwy wequiwe wepaiws ow CW wecuvwy.",
+		},
+		"tooltipRefit":{
+			"title":"Wefit",
+			"body":"Change the weapons and huwwmods equipped on this ship.",
+		},
+		"tooltipLogisticalPriority":{
+			"title":"Wogisticaw Pwiowity",
+			"body":"%ss with wogisticaw pwiowity get fiwst pick of cwew and suppwies avaiwabwe fow wepaiws.",
+		},
+		"tooltipCrewElite":{
+			"title":"Ewite",
+			"body":"Cwew this %s with the best pewsonnyew avaiwabwe.",
+		},
+		"tooltipCrewVeteran":{
+			"title":"Vetewan",
+			"body":"Cwew this %s with onwy vetewan cwew and bewow, if possibwe.", 
+		},
+		"tooltipCrewRegular":{
+			"title":"Weguwaw",
+			"body":"Cwew this %s with onwy weguwaw cwew and bewow, if possibwe.",
+		},
+		"tooltipCrewGreen":{
+			"title":"Gween",
+			"body":"Cwew this %s onwy with gween cwew, if possibwe.",
+		},
+		"tooltipCrewBar":{
+			"title":"",
+			"body":"Cwew fwaction on this %s.",
+		},
+	},
+	"logistics":{
+		"marines":"Nyumbew of mawinyes in the fweet.",
+		"crew":"Nyumbew of cwew in the fweet, and the nyumbew nyeeded to meet the minyimum wequiwements on aww ships in the fweet.",
+		"supplies":"Avaiwabwe suppwies and suppwy use pew day.",
+		"credits":"Avaiwabwe cwedits.",
+	},
+	"misc":{
+		"jumpPointNormal":"Jump points can be used to twansit between hypewspace and nyowmaw space. Some jump points awso wead to othew destinyations.",
+		"jumpPointStar":"The gwavity weww of a staw is deep enyough to pwovide a onye-way exit fwom hypewspace. Using onye is, howevew, extwemewy difficuwt and dangewous.",
+		"jumpPointGasGiant":"The gwavity weww of a gas giant is often deep enyough to pwovide a onye-way exit fwom hypewspace.",
+	},
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

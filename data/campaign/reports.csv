@@ -1,0 +1,332 @@
+event_type,event_stage,p,target_rel,channels,subject,summary,assessment,image,icon,tags,sound_id,implementation notes
+food_shortage,possible,,,player_intel,Possibwe food showtage $onOrAt $market,Anyawysis of the intewwigence gainyed fwom intewcepted comms and othew souwces suggests that a food showtage is wikewy to occuw $onOrAt $market within a few weeks.,Incweased food pwices and weduced stabiwity $onOrAt $market if the showtage occuws.,,graphics/icons/markets/food_shortage.png,,,
+food_shortage,likely,,,player_intel,Wikewy food showtage $onOrAt $market,Anyawysis of the intewwigence gainyed fwom intewcepted comms and othew souwces suggests that a food showtage is aww but cewtain to occuw $onOrAt $market within a few weeks.,Incweased food pwices and weduced stabiwity $onOrAt $market if the showtage occuws.,,graphics/icons/markets/food_shortage.png,,,
+food_shortage,likely,0.5,HOSTILE,hegemony_internal,Wikewy food showtage $onOrAt $market,"This wepowt indicates that a food showtage is aww but cewtain to occuw $onOrAt $market, and advises unyits in the awea on what steps couwd be taken to maximize its impact.","Wewief fweet wikewy to be sent fwom a nyeawby staw system; intewcepting it wiww extend the showtage and fuwthew destabiwize $market.
+
+Sewwing food on bwack mawket wiww incwease post-showtage unwest.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,likely,0.5,FRIENDLY,hegemony_internal,Wikewy food showtage $onOrAt $market,"This wepowt indicates that a food showtage is aww but cewtain to occuw $onOrAt $market, and advises unyits to stand by to pwovide assistance.",Dewivewing enyough food to $market quickwy wiww weduce the duwation and impact of the showtage.,,graphics/icons/markets/food_shortage.png,,,
+food_shortage,start,,,news,Food showtage $onOrAt $market,"The wepowt discusses the food showtage $onOrAt $market and pwovides a bawanced pewspective, but faiws to pinpoint a specific cause. The most wikewy cuwpwit appeaws to be a cascading ewwow in a detewiowating wogistics system.","Incweased food pwices $onOrAt $market.
+
+Stabiwity weduced by $stabilityPenalty.
+
+Appwoximatewy $neededFood unyits of food nyeeded to end showtage.
+Wewief fweet wikewy to be sent fwom a nyeawby staw system.
+
+Incweased weputation impact fwom sewwing food. Sewwing food on bwack mawket wiww incwease post-showtage unwest.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,start,0.25,HOSTILE,hegemony_public,Cwiticaw food showtage $onOrAt $market,"The wepowt indicates the food showtage $onOrAt $market is unyusuawwy sevewe, and accuses $theMarketFaction adminyistwation of pwecipitating a humanyitawian cwisis.","Incweased food pwices $onOrAt $market.
+
+Stabiwity weduced by $stabilityPenalty.
+
+Appwoximatewy $neededFood unyits of food nyeeded to end showtage.
+
+Wewief fweet wikewy to be sent fwom a nyeawby staw system.
+
+Incweased weputation impact fwom sewwing food. Sewwing food on bwack mawket wiww incwease post-showtage unwest.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,start,0.25,SELF,hegemony_public,Awweged food showtage $onOrAt $market,"The wepowt fwatwy denyies any wumouws of a food showtage $onOrAt $market, and encouwages wesponsibwe citizens to do theiw pawt by wepowting anyonye suspected of spweading mawicious wumouws.","Incweased food pwices $onOrAt $market.
+
+Stabiwity weduced by $stabilityPenalty.
+
+Appwoximatewy $neededFood unyits of food nyeeded to end showtage.
+
+Wewief fweet wikewy to be sent fwom a nyeawby staw system.
+
+Incweased weputation impact fwom sewwing food. Sewwing food on bwack mawket wiww incwease post-showtage unwest.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,warning_relief,,,player_intel,Food showtage $onOrAt $market: wewief being owganyized on $reliefMarket,Comm twaffic anyawysis indicates that a wewief fweet is being owganyized at $reliefMarket in $reliefSystem and wiww be sent to $market in the nyeaw futuwe.,"Fweet is cawwying enyough food to end the showtage.
+
+If the fweet does nyot awwive as expected, the situation at $market wiww destabiwize fuwthew.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,warning_relief,0.5,HOSTILE,"hegemony_internal,
+tritachyon_internal,
+sindrian_diktat_internal",Food showtage $onOrAt $market: wewief being owganyized on $reliefMarket,"The wepowt indicates that a wewief fweet is being owganyized at $reliefMarket in $reliefSystem, and is wikewy to get undewway within a few weeks.","Fweet is cawwying enyough food to end the showtage.
+
+If the fweet does nyot awwive as expected, the situation at $market wiww destabiwize fuwthew.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,warning_relief,0.5,FRIENDLY,"hegemony_internal,
+tritachyon_internal,
+sindrian_diktat_internal",Food showtage $onOrAt $market: wewief being owganyized on $reliefMarket,"The wepowt indicates that a wewief fweet is being owganyized at $reliefMarket in $reliefSystem, and is wikewy to get undewway within a few days. Nyeawby unyits awe advised to ensuwe the fweet awwives to its destinyation safewy.","Fweet is cawwying enyough food to end the showtage.
+
+If the fweet does nyot awwive as expected, the situation at $market wiww destabiwize fuwthew.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,relief_sent,,,news,Food showtage $onOrAt $market: wewief sent fwom $reliefMarket,"A wewief fweet is undewway fwom $reliefMarket in the $reliefSystem system, and shouwd awwive in $marketSystem $eta.","Fweet is cawwying enyough food to end the showtage.
+
+If the fweet does nyot awwive as expected, the situation at $market wiww destabiwize fuwthew.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,relief_unavailable,,,news,Food showtage $onOrAt $market: conditions wowsen,"Whiwe thewe was specuwation eawwy on that a nyeighbowing wowwd might be abwe to send wewief, it appeaws nyo such aid is fowthcoming.",Unwest incweased by $stabilityPenaltyRelief.,,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,relief_aborted,,,news,Food showtage $onOrAt $market: wewief fweet tuwnyed back,"The wewief fweet fwom $reliefMarket was attacked on its way to $market, suffewed majow wosses, and was fowced to tuwn back. The food showtage contnyiues unyabated.",Unwest incweased by $stabilityPenaltyRelief.,,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,end_relief_arrived,,,news,Food showtage $onOrAt $market: wewief fweet awwived,"The wewief fweet fwom $reliefMarket has awwived, and the food showtage $onOrAt $market is ovew.","Unwest incweased by $stabilityPenaltyEnd.
+
+Food pwices $onOrAt $market awe back to theiw nyowmaw wevews.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,relief_lost,,,news,Food showtage $onOrAt $market: wewief fweet wost,"The wewief fweet fwom $reliefMarket did nyot awwive at its destinyation, and the food showtage contnyiues unyabated.",Unwest incweased by $stabilityPenaltyRelief.,,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,end_expired,,,news,Food showtage $onOrAt $market ovew,"The wepowt indicates that the food showtage $onOrAt $market is nyow ovew. Vawious factows, incwuding stwict wationying, wiot-suppwession measuwes, and the awwivaw of sevewaw independent twadews, awe aww cwedited with ending the showtage.","Unwest incweased by $stabilityPenaltyExpire.
+Food pwices $onOrAt $market awe back to theiw nyowmaw wevews.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,end_player,,,news,Food showtage $onOrAt $market ovew,"The wepowt indicates that the food showtage $onOrAt $market is nyow ovew. The awwivaw of a wewief fweet commanyed by $playerName is cwedited with ending the showtage, though a wocaw adminyistwatow was quick to point out his own contwibutions.","Unwest incweased by $stabilityPenaltyEnd.
+Food pwices $onOrAt $market awe back to theiw nyowmaw wevews.",,graphics/icons/markets/food_shortage.png,prices,,
+food_shortage,end_player_black,,,news,Food showtage $onOrAt $market ovew,"The wepowt indicates that the food showtage $onOrAt $market is nyow ovew. Unfowtunyatewy, much of the food wewief distwibution was handwed by cwiminyaw ewements, stwengthenying theiw position and undewminying wocaw authowities both finyanciawwy and in the eyes of the popuwation.","Unwest incweased by $stabilityPenaltyEndBlack.
+
+Food pwices $onOrAt $market awe back to theiw nyowmaw wevews.",,graphics/icons/markets/food_shortage.png,,,
+food_shortage,end_player_fast,,,news,Food showtage $onOrAt $market ovew,The wepowt indicates that the food showtage $onOrAt $market is nyow ovew. The timewy awwivaw of a wewief fweet commanyed by $playerName is cwedited with ending the showtage quickwy and mitigating its wong-tewm effects.,"Nyo unwest incwease $onOrAt $market.
+
+Food pwices $onOrAt $market awe back to theiw nyowmaw wevews.",,graphics/icons/markets/food_shortage.png,prices,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+# player smuggling investigation,,,,,,,,,,,,
+investigation_smuggling,start_smuggling,,,secure_comm,Smuggwing investigation $onOrAt $market,An encwyped message fwom onye of youw contacts in $market's undewwowwd wawns you that $theMarketFaction authowities have waunched an investigation into the wecent smuggwing activity.,"If the investigation finds you invowved in the smuggwing, $theMarketFaction wiww become inhospitabwe towawds you.
+
+$InvestigatorPost $investigatorName is chawged with cawwying out the investigation. You may be abwe to infwuence the outcome by contacting $invHimOrHer.
+
+The investigation wiww wast fow $duration.",,,important,,
+investigation_smuggling,clear_smuggling,,,player_intel_always,Smuggwing investigation $onOrAt $market - cweawed,"The $marketFaction smuggwing investigation is ovew, and it wooks wike youw nyame was cweawed - ow, at weast, thewe was nyo concwusive evidence to pwove youw invowvement.",Wewationship with $theMarketFaction is unyaffected.,,,important,,
+investigation_smuggling,clear_smuggling_bribe,,,player_intel_always,Smuggwing investigation $onOrAt $market - cweawed,"The $marketFaction smuggwing investigation has been compweted accowding to youw ""speciaw awwangement"" with $investigatorName, and this pawticuwaw stain on youw weputation has been ewased.","Bwibe to $InvestigatorPost $investigatorName was effective.
+
+Wewationship with $theMarketFaction is unyaffected.",,,important,,
+investigation_smuggling,player_guilty_smuggling,,,player_intel_always,Smuggwing investigation $onOrAt $market - convicted,"The $marketFaction investigation has concwuded that you wewe, indeed, invowved in the wecent smuggwing activity.",,,,important,,
+# faction good reputation investigation,,,,,,,,,,,,
+investigation_goodrep,start_goodrep,,,secure_comm,$MarketFaction investigation of youw ties to $OtherFaction,An encwyped message fwom onye of youw contacts $onOrAt $market wawns you that $theMarketFaction authowities have waunched an investigation into youw ties with $theOtherFactionLong.,"$TheMarketFaction may become hostiwe towawds you as a wesuwt of the investigation.
+
+$InvestigatorPost $investigatorName $onOrAt $market is chawged with cawwying out the investigation. You may be abwe to infwuence the outcome by contacting $invHimOrHer.
+
+The investigation wiww wast fow $duration.",,,important,,
+investigation_goodrep,clear_goodrep,,,player_intel_always,$MarketFaction investigation of youw ties to $OtherFaction - cweawed,"The $marketFaction investigation of youw ties with $theOtherFactionLong is ovew, and you've been cweawed of acting against $marketFaction intewests.",Wewationship with $theMarketFaction is unyaffected.,,,important,,
+investigation_goodrep,clear_goodrep_bribe,,,player_intel_always,$MarketFaction investigation of youw ties to $OtherFaction - cweawed,"The $marketFaction investigation of youw ties with $theOtherFactionLong has been compweted accowding to youw ""speciaw awwangement"" with $investigatorName, and you've been cweawed of acting against $marketFaction intewests.","Bwibe to $InvestigatorPost $investigatorName was effective.
+
+Wewationship with $theMarketFaction is unyaffected.",,,important,,
+investigation_goodrep,player_guilty_goodrep,,,player_intel_always,$MarketFaction investigation of youw ties to $OtherFaction - convicted,The $marketFaction investigation of youw ties with $theOtherFactionLong has concwuded that you've been acting against the intewests of $theMarketFaction. It is cweaw that you wiww be tweated with pawticuwaw suspicion by $theMarketFaction.,,,,important,,
+,,,,,,,,,,,,
+# comm sniffer investigation,,,,,,,,,,,,
+investigation_comm_sniffer,start_comm_sniffer,,,player_intel_always,Wost contact with comm snyiffew at $name,The comm snyiffew you've instawwed on $name has stopped wepowting. This is wikewy due to it being wemoved by secuwity softwawe. It's possibwe that a manyuaw audit of the secuwity wogs wiww spawn an investigation into the snyiffew's owigin.,Comm snyiffew at $name is nyo wongew opewationyaw.,,,,,
+investigation_comm_sniffer,player_guilty_comm_sniffer,,,player_intel_always,Comm snyiffew at $name twaced back to you,A thowough audit of the secuwity wogs on $name has wesuwted in you being bwamed fow the secuwity bweach.,,,,,,
+,,,,,,,,,,,,
+# trade disruption reports,,,,,,,,,,,,
+trade_disruption,report_td,,,news,Twade diswupted $onOrAt $market in the $marketSystem system,Twade fweets going to ow fwom $market awe nyot weaching theiw destinyation in signyificant nyumbews. The wepowt points to piwacy ow waw as being the most wikewy cuwpwits.,"Pwices wikewy to wevewt to nyowm within two months.
+
+The fowwowing commodities awe affected:
+$commoditySummary
+
+Sewect ""pwices"" and switch to the map tab fow detaiws.",,graphics/icons/markets/trade_disruption.png,prices,,
+trade_disruption,report_smuggling,,,news,Smuggwing activity $onOrAt $market in the $marketSystem system,The situation $onOrAt $market has gwown wess stabwe as a wesuwt of wecent smuggwing activity. The wocaw authowities awe pwomising a fuww-scawe investigation.,Stabiwity weduced by $smugglingPenalty.,,graphics/icons/markets/smuggling.png,,,
+trade_disruption,report_smuggling_player,,,news,Smuggwing activity $onOrAt $market in the $marketSystem system,"The situation $onOrAt $market has gwown wess stabwe as a wesuwt of wecent smuggwing activity, in which you've been invowved. The wocaw authowities awe pwomising a fuww-scawe investigation.","Stabiwity weduced by $smugglingPenalty.
+
+Youw wecent actions have contwibuted to the situation.",,graphics/icons/markets/smuggling.png,,,
+,,,,,,,,,,,,
+# rep changes,,,,,,,,,,,,
+rep_tracker,trade_rep,,,player_intel_always,Standing with $theFaction impwoved due to twade,Thewe awe indications that youw wecent twading activity at $marketList has been nyoted by $theFaction.,,,,nomap,,
+rep_tracker,smuggling_rep,,,player_intel_always,Standing with $theFaction weduced due to smuggwing,"Thewe awe indications that youw wecent bwack-mawket twade with $marketList has been nyoted by $theFaction. Thewe is nyo concwusive pwoof, but it's cweaw that youw actions awe being scwutinyized mowe cwosewy than befowe.",,,,nomap,,
+rep_tracker,trade_negative,,,player_intel_always,Standing with $theHostiweFaction weduced due to twade with $pickedMarket,"Thewe awe indications that youw twade with $pickedMarket was signyificant enyough to be nyoticed by $theHostiweFaction, which is hostiwe to $theFaction.","Youw activity inyitiawwy wepowted by pawties at $hostileMawket.
+
+Smuggwing (if any) had wess of an impact than open twade.",,,nomap,,
+#rep_tracker,trade_no_change,,,player_intel_always,Standing with $theFaction unyaffected by twade,"Youw wecent twade activity with $marketList, whiwe nyoted by $theFaction, has nyot wed to any change in wewations.",The wewationship is at a point whewe twade wiww nyot infwuence it.,,,,,
+#rep_tracker,trade_no_change_negative,,,player_intel_always,Standing with $theHostiweFaction unyaffected by twade,"Youw wecent twade activity with $pickedMarket, whiwe nyoted by the hostiwe authowities at $hostileMawket, has nyot wed to any change in wewations.",The wewationship is at a point whewe twade wiww nyot infwuence it.,,,,,
+rep_tracker,trade_xp_gain,,,player_intel_always,Twade expewience,Youw wecent twades have given you fwesh insight into the wowkings of the econyomy. You've awso made some vawuabwe contacts.,Gainyed $xpGain expewience.,,,nomap,,
+rep_tracker,rep_decay_positive,,,player_intel_always,Standing with $theFaction impwoved,"Minyow swights and offenses awe fowgotten aftew a time, if nyot weinfowced by a wecent pattewn of behaviow.",,,,nomap,,
+#rep_tracker,rep_decay_negative,,,player_intel_always,Standing with $theFaction weduced,"Minyow swights and smaww favows awe quickwy fowgotten, if nyot weinfowced by a wecent pattewn of behaviow.",,,,,,
+rep_tracker,battle_rep_positive,,,secure_comm,Standing with $theFaction impwoved,Youw battwe with the $otherFleetName was nyoted by $theFaction at $market.,Nyews of the battwe inyitiawwy picked up by pawties at $market.,,,nomap,,
+rep_tracker,comm_access_granted,,,player_intel_always,$Faction secuwe comm access gwanted,"Due to youw good standing ($factionStanding), you've been gwanted access to intewnyaw $Faction comm channyews by the authowities $onOrAt $market.",,,,nomap,,
+rep_tracker,comm_access_revoked,,,player_intel_always,$Faction secuwe comm access wevoked,"Due to youw weduced standing ($factionStanding), youw access to intewnyaw $Faction comm channyews has been wevoked.",,,,nomap,,
+,,,,,,,,,,,,
+# trade info updates (prices etc),,,,,,,,,,,,
+trade_info,prices_market,,,player_intel_always,$market pwice update,Tapping into the wocaw comm nyet yiewds infowmation on some commodities with unyusuaw pwices at $market.,$priceList,,,prices,,
+trade_info,prices_local,,,player_intel_always,Wocaw pwice update,Tapping into wocaw comm twaffic and othew avaiwabwe data souwces has yiewded pwice data fow some commodities at in-system mawkets.,$priceList,,,prices,,
+trade_info,prices_sniffer,,,player_intel_always,Pwice update,A micwobuwst fwom the comm snyiffew at $wewayNyame contains pwice infowmation about some commodities in the $fromSystem staw system.,$priceList,,,prices,,
+trade_info,prices_remote,,,player_intel_always,Pwice update,Tapping into wocaw comm twaffic and othew avaiwabwe data souwces has yiewded pwice data fow some commodities in the $fromSystem staw system.,$priceList,,,prices,,
+,,,,,,,,,,,,
+# customs inspection,,,,,,,,,,,,
+customs_inspection,player_evaded,,,player_intel_always,Customs inspection,"Youw evasion of the customs inspection, whiwe successfuw in the showt tewm, was nyoted by the $faction authowities.",,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+# system-wide bounty reports,,,,,,,,,,,,
+system_bounty,likely,,,player_intel,Bounty wikewy to be offewed by $market,Authowities $onOrAt $market awe wumowed to be considewing posting a bounty on aww fweets hostiwe to $theMarketFaction.,"
+",,,,,
+system_bounty,start,,,news,Bounty offewed by $market,"Authowities $onOrAt $market, fed up with constant attacks on shipping, twade diswuption, and the genyewaw state of nyeaw-waw, have posted a bounty on any and aww fweets hostiwe to $theMarketFaction.","Wiww wast fow $daysLeft days.
+
+Amount paid depends on ships destwoyed (stawting at $baseBounty cwedits fow a fwigate), standing with $theMarketFaction may awso impwove.
+
+Ships must be destwoyed ow disabwed in-system ow nyeawby in hypewspace.
+
+Payment dewivewed via secuwe comm channyew thwough a nyeawby comm weway.
+",,,,,
+system_bounty,start_with_faction,,,news,Bounty offewed by $market,"Authowities $onOrAt $market, fed up with constant attacks on shipping, twade diswuption, and the genyewaw state of nyeaw-waw, have posted a bounty on any and aww fweets hostiwe to $theMarketFaction.","Wiww wast fow $daysLeft days.
+
+Wikewy twiggewed by $enyemyFaction activity in the system.
+
+Amount paid depends on ships destwoyed (stawting at $baseBounty cwedits fow a fwigate), standing with $theMarketFaction may awso impwove.
+
+Ships must be destwoyed ow disabwed in-system ow nyeawby in hypewspace.
+
+Payment dewivewed via secuwe comm channyew thwough a nyeawby comm weway.
+",,,,,
+system_bounty,bounty_payment,,,secure_comm,Bounty payment fwom $market: $bountyCredits cwedits,The message has an encwypted attachment that contains a payment of $bountyCredits cwedits.,"$bountyCredits cwedits gainyed.
+
+$market wiww continyue to offew the bounty fow $daysLeft day(s).",,graphics/icons/intel/gain_credits.png,nomap,,
+system_bounty,bounty_payment_share,,,secure_comm,Bounty payment fwom $market: $bountyCredits cwedits,"The message has an encwypted attachment that contains youw shawe of the bounty, coming to $bountyCredits cwedits.","$bountyCredits cwedits gainyed.
+
+$market wiww continyue to offew the bounty fow $daysLeft day(s).",,graphics/icons/intel/gain_credits.png,nomap,,
+system_bounty,bounty_no_payment,,,player_intel_always,Assessment we: bounty fwom $market,The message contains an intewnyaw intewwigence wepowt wegawding the bounty on offew fwom $market.,"Nyo bounty payment due to $theMarketFaction being $factionStanding towawds you.
+
+$market wiww continyue to offew the bounty fow $daysLeft day(s).",,,nomap,,
+system_bounty,bounty_no_rep,,,player_intel_always,Assessment we: bounty fwom $market,The message contains an intewnyaw intewwigence wepowt wegawding the bounty on offew fwom $market.,"Nyo bounty payment ow wewationship impwovement due to $theMarketFaction being $factionStanding towawds you.
+
+$market wiww continyue to offew the bounty fow $daysLeft day(s).",,,nomap,,
+system_bounty,end,,,news,Bounty offewed by $market ovew,Authowities $onOrAt $market have decwawed the bounty pewiod to be officiawwy ovew.,Nyo mowe bounty payments wiww be made.,,,nomap,,
+,,,,,,,,,,,,
+comm_sniffer,report,,,player_comm_sniffer,Comm snyiffew data,"An attachment contains a dump of vawious message twaffic, both human-genyewated and automated, passing thwough the $system system.",Impwoves the chances of accuwatewy pwedicting futuwe events in the staw system.,,,,,
+,,,,,,,,,,,,
+# person bounty reports,,,,,,,,,,,,
+person_bounty,start_pirate,,,news,$bountyCredits cwedit bounty posted by $theFaction on $targetName,"$Faction authowities $onOrAt $market have posted a bounty fow bwinging $targetName, a nyotowious piwate, to justice.","$bountyCredits cwedit wewawd, dewivewed via secuwe comm channyew thwough a nyeawby comm weway.
+
+Offewed fow $daysLeft days.
+
+$targetDesc
+
+Wumowed to be $hideoutCrumb.",,,,,
+person_bounty,start_deserter,,,news,$bountyCredits cwedit bounty posted by $theFaction on $targetName,"$Faction authowities $onOrAt $market have posted a bounty fow bwinging $targetName, convicted of desewtion, to justice.","$bountyCredits cwedit wewawd dewivewed via secuwe comm channyew thwough a nyeawby comm weway.
+
+Offewed fow $daysLeft days.
+
+$targetDesc
+
+Wumowed to be $hideoutCrumb.",,,,,
+person_bounty,bounty_payment_end,,,secure_comm,Bounty payment fwom $theFaction: $bountyCredits cwedits,The message has an encwypted attachment that contains a payment of $bountyCredits cwedits fow bwinging $targetName to justice.,$bountyCredits cwedits gainyed.,,graphics/icons/intel/gain_credits.png,nomap,,
+person_bounty,bounty_payment_share_end,,,secure_comm,Bounty payment fwom $theFaction: $bountyCredits cwedits,"The message has an encwypted attachment that contains youw shawe of the bounty, coming to $bountyCredits cwedits, fow bwinging $targetName to justice.",$bountyCredits cwedits gainyed.,,graphics/icons/intel/gain_credits.png,nomap,,
+person_bounty,bounty_no_payment_end,,,player_intel_always,Assessment we: $targetName bounty,The message contains an intewnyaw intewwigence wepowt wegawding the bounty on $targetName.,Nyo bounty payment due to $theFaction being $factionStanding towawds you.,,,nomap,,
+person_bounty,bounty_no_rep_end,,,player_intel_always,Assessment we: $targetName bounty,The message contains an intewnyaw intewwigence wepowt wegawding the bounty on $targetName.,Nyo bounty payment ow wewationship impwovement due to $theFaction being $factionStanding towawds you.,,,nomap,,
+person_bounty,other_end,,,news,Bounty on $targetName ovew,Wepowts indicate that $targetName was kiwwed in an incident unwewated to the bounty posting.,The bounty is nyo wongew on offew.,,,nomap,,
+person_bounty,expire_end,,,news,Bounty on $targetName ovew,$Faction authowities $onOrAt $market have withdwawn the bounty pweviouswy posted on $targetName.,The bounty is nyo wongew on offew.,,,nomap,,
+,,,,,,,,,,,,
+# test mission,,,,,,,,,,,,
+test_mission,start,,,player_intel_always,Test mission accepted,"You've accepted a test mission. Congwatuwations, I guess.",Nyo wewawds awe wikewy fowthcoming.,,,,,
+test_mission,end_success,,,player_intel_always,Test mission compweted success,Test mission compweted successfuwwy.,,,,,,
+test_mission,end_failure,,,player_intel_always,Test mission compweted faiwuwe,Test mission faiwed.,,,,,,
+,,,,,,,,,,,,
+# market procurement mission,,,,,,,,,,,,
+market_procurement,posting,,,posting,Acquiwe $quantity unyits of $commodity and dewivew to $market within $daysLeft fow a $rewardCredits payment.,Contact $contactDesc $contactName at $market to compwete the dewivewy.,"Base payment is $perUnit pew unyit.
+
+$market is contwowwed by $marketFaction authowities.
+
+$contactName $contactDetail.",,,no_system_prefix,,
+market_procurement,posting_bonus,,,posting,Acquiwe $quantity unyits of $commodity and dewivew to $market within $daysLeft fow a $rewardCredits payment. $bonusCredits bonyus fow dewivewy within $bonusDays.,Contact $contactDesc $contactName at $market to compwete the dewivewy.,"Base payment is $perUnit pew unyit.
+
+$market is contwowwed by $marketFaction authowities.
+
+$contactName $contactDetail.",,,,,
+market_procurement,accept,,,secure_comm,Accepted: acquiwe $quantity unyit(s) of $commodity and dewivew to $market,"Acquiwe $quantity unyits of $commodity and dewivew to $market.
+
+Contact $contactDesc $contactName at $market to compwete the dewivewy.","$daysLeft to compwete the dewivewy.
+
+$rewardCredits wewawd ($perUnit pew unyit).
+
+$market is contwowwed by $marketFaction authowities.
+
+$contactName $contactDetail.",,,"no_system_prefix, important",,
+market_procurement,accept_bonus,,,secure_comm,Accepted: acquiwe $quantity unyit(s) of $commodity and dewivew to $market,"Acquiwe $quantity unyits of $commodity and dewivew to $market.
+
+Contact $contactDesc $contactName at $market to compwete the dewivewy.","$daysLeft to compwete the dewivewy.
+
+$rewardCredits wewawd ($perUnit pew unyit).
+
+$bonusCredits bonyus if dewivewed within $bonusDays.
+
+$market is contwowwed by $marketFaction authowities.
+
+$contactName $contactDetail.",,,"no_system_prefix, important",,
+market_procurement,success,,,player_intel_always,Compweted: $quantity unyit(s) of $commodity dewivewed to $market,Mission compweted successfuwwy.,$actualReward gainyed.,,,"no_system_prefix, important",,
+market_procurement,success_bonus,,,player_intel_always,Compweted: $quantity unyit(s) of $commodity dewivewed to $market,Mission compweted successfuwwy.,"$actualReward gainyed, incwuding $bonusCredits bonyus.",,,"no_system_prefix, important",,
+market_procurement,failure,,,player_intel_always,Faiwed: faiwed to dewivew $quantity unyit(s) of $commodity to $market in time,Mission faiwed - deadwinye nyot met.,,,,"no_system_prefix, important",,
+,,,,,,,,,,,,
+# analyze entity mission,,,,,,,,,,,,
+analyze_entity,posting,,,posting,Wun pwovided sensow package on $entityName in $systemName within $daysLeft fow $rewardCredits payment.,Mission wiww be considewed compweted and payment posted immediatewy upon wunnying the sensow package.,$locationHint,,,no_system_prefix,,
+analyze_entity,accept,,,secure_comm,Accepted: wun sensow package on $entityName in $systemName,"$rewardCredits wewawd, must be compweted within $daysLeft.
+
+Mission wiww be considewed compweted and payment posted immediatewy upon wunnying the sensow package.",$locationHint,,,"no_system_prefix, important",,
+analyze_entity,failure,,,player_intel_always,Faiwed: wun sensow package on $entityName in $systemName,Mission faiwed - deadwinye nyot met.,,,,"no_system_prefix, important",,
+analyze_entity,success,,,player_intel_always,Compweted: wun sensow package on $entityName in $systemName,Mission compweted successfuwwy.,$rewardCredits gainyed.,,,"no_system_prefix, important",,
+,,,,,,,,,,,,
+# survey planet mission,,,,,,,,,,,,
+survey_planet,posting,,,posting,Wun a fuww suwvey on $planetName in $systemName within $daysLeft fow $rewardCredits payment.,Mission wiww be considewed compweted and payment posted immediatewy upon suwvey compwetion.,$surveyInfo,,,no_system_prefix,,
+survey_planet,accept,,,secure_comm,Accepted: wun a fuww suwvey on $planetName in $systemName,"$rewardCredits wewawd, must be compweted within $daysLeft.
+
+Mission wiww be considewed compweted and payment posted immediatewy upon suwvey compwetion.",$surveyInfo,,,"no_system_prefix, important",,
+survey_planet,failure,,,player_intel_always,Faiwed: wun a fuww suwvey on $planetName in $systemName,Mission faiwed - deadwinye nyot met.,,,,"no_system_prefix, important",,
+survey_planet,success,,,player_intel_always,Compweted: wun a fuww suwvey on $planetName in $systemName,Mission compweted successfuwwy.,$rewardCredits gainyed.,,,"no_system_prefix, important",,
+,,,,,,,,,,,,
+# tutorial mission,,,,,,,,,,,,
+tutorial_mission,start,,,secure_comm,Secuwe communyication fwom Ancywa,"You weceive a tight-beam communyication fwom the system's main inhabited wowwd, Ancywa.
+
+The message is bwief and asks you to twavew thewe and contact $mainContactPost $mainContactName as soon as possibwe.",,,,"no_system_prefix, important",,
+tutorial_mission,sneak_start,,,player_intel_always,Acquiwe jump-point data at Dewinkuyu,"Contact $dataContactName at Dewinkuyu Minying Station to acquiwe the waw jump-point weadings.
+
+Contact must be made with the twanspondew off as the minyews of Dewinkuyu have tuwnyed piwate and youw fweet wiww be attacked othewwise.","Use ""Go Dawk"" to avoid detection, and ""Emewgency Buwn"" to get away if you awe seen.",,,"no_system_prefix, important",,
+tutorial_mission,sneak_end,,,player_intel_always,Wetuwn to Ancywa with the data,Wetuwn to Ancywa and contact $mainContactPost $mainContactLastName to dewivew the jump-point data.,,,,"no_system_prefix, important",,
+tutorial_mission,salvage_core_start,,,player_intel_always,Sawvage an AI cowe fwom a dewewict,"Anyawyzing the jump-point data wequiwes an AI Cowe.
+
+Thewe's a Domain-ewa suwvey pwobe outside the owbit of Pontus. If sawvaged, it's wikewy to yiewd a gamma AI cowe, which shouwd be sufficient fow the task.","Go to Pontus, head out towawds the astewoid bewt, and then use an Active Sensow Buwst to wocate the pwobe. 
+
+Appwoach and sawvage it, ow pound it into scwap and scavenge thwough the wesuwting debwis fiewd.
+
+It's wikewy that you wiww have to ovewcome some automated defenses fiwst.",,,"no_system_prefix, important",,
+tutorial_mission,salvage_core_end,,,player_intel_always,Wetuwn to Ancywa with the AI cowe,Wetuwn to Ancywa and contact $mainContactPost $mainContactLastName to dewivew the AI cowe.,,,,"no_system_prefix, important",,
+tutorial_mission,ship_recovery_start,,,player_intel_always,Wecovew dewewict ships awound Tetwa,"Go to the ship gwaveyawd awound Tetwa and wecovew as many ships as possibwe.
+
+Bwing extwa cwew to man the wecovewed ships, and extwa suppwies to hewp westowe theiw combat weadinyess.",,,,"no_system_prefix, important",,
+tutorial_mission,ship_recovery_end,,,player_intel_always,Wetuwn to Ancywa and outfit the wecovewed ships,Wetuwn to $mainContactPost $mainContactLastName at Ancywa fow hewp with outfitting the wecovewed ships with weapons.,,,,"no_system_prefix, important",,
+tutorial_mission,stabilize_jump_point,,,player_intel_always,Stabiwize the innyew-system jump-point,"Use the hypewwave sequence pwoduced by the AI cowe to stabiwize the innyew-system jump-point.
+
+You wiww have to defeat the piwates guawding it fiwst.",,,,"no_system_prefix, important",,
+tutorial_mission,stabilize_jump_point_done,,,player_intel_always,Wetuwn to Ancywa and wepowt youw success,"Gawatia's connyection with hypewspace has been westowed, and twade fweets awe once again abwe to entew and weave the system.
+
+The Dewinkuyu weadewship wiww suwewy soon be toppwed by wank-and-fiwe minyews eagew to get on the wight side of the waw once again.",,,,"no_system_prefix, important",,
+tutorial_mission,deliver_message,,,player_intel_always,Dewivew wepowt to Jangawa in the Cowvus system,"$MainContactRank $mainContactLastName has tasked you with dewivewing a wepowt detaiwing the wecent events to the $jangalaContactPost $jangalaContactLastName at Jangawa.
+
+Make suwe you have enyough fuew to make the twip successfuwwy.",,,,"no_system_prefix, important",,
+tutorial_mission,end,,,player_intel_always,Wepowt dewivewed,You have dewivewed the wepowt and youw standing with the Hegemony has incweased substantiawwy.,,,,"no_system_prefix, important",,
+,,,,,,,,,,,,
+# faction commission,,,,,,,,,,,,
+faction_commission,posting,,,posting,"Wequiwed fow most miwitawy mawket puwchases, and pays a smaww bounty on enyemies of the faction, which wiww become hostiwe to the howdew of the commission.","Bounty stawts at $baseBounty cwedits fow an enyemy fwigate and goes up fow wawgew ships.
+
+Wiww be annyuwwed if the commission howdew's weputation with $theFaction dwops bewow nyeutwaw.",,,,important,,
+faction_commission,accept,,,secure_comm,$Faction commission accepted,"Wequiwed fow most miwitawy mawket puwchases, and pays a smaww bounty on enyemies of the faction, which wiww become hostiwe to the howdew of the commission.","Bounty stawts at $baseBounty cwedits fow an enyemy fwigate and goes up fow wawgew ships.
+
+Wiww be annyuwwed if the commission howdew's weputation with $theFaction dwops bewow nyeutwaw.
+",,,important,,
+faction_commission,become_hostile,,,secure_comm,$otherFaction is nyow hostiwe,"Due to youw accepting a commission with $theFaction, $theOtherFactionLong is nyow hostiwe towawds you.",,,,"important, nomap",,
+faction_commission,bounty_payment,,,secure_comm,Payment fwom $theFaction: $bountyCredits cwedits,"The message has an encwypted attachment that contains a payment of $bountyCredits cwedits fow fighting enyemies of $theFaction.
+
+It wefewences fwight wog data fwom youw wecent battwe against $enyemyDesc.",$bountyCredits cwedits gainyed.,,graphics/icons/intel/gain_credits.png,nomap,,
+faction_commission,annul,,,secure_comm,Commision with $theFaction annyuwwed,The message is an officiaw communyique fwom $theFaction which annyuws youw commission due to a wack of good standing.,May accept anyothew commission when standing impwoves.,,,"important, nomap",,
+faction_commission,rep_drop_hostile,,,secure_comm,$Faction nyotice we: hostiwies with $theOtherFaction,"The message is an officaw communyique fwom $theFaction, questionying youw awweged hostiwities with $theOtherFaction, and weminding you, in stwong tewms, that $theOtherFaction $otherFactionIsOrAre nyot an enyemy of $theFaction.",Youw actions may cause open hostiwities between $theFaction and $theOtherFaction.,,,nomap,,
+,,,,,,,,,,,,
+# faction hostility,,,,,,,,,,,,
+faction_hostility,warning,,,secure_comm,Impending hostiwities between $theOneFaction and $theTwoFaction,You weceive a wawnying fwom $theCommissionFaction that the genyewaw state of cowd waw with $theOtherFaction is aww but cewtain to give way to open hostiwities in a mattew of weeks at the most.,"$TheOthewFaction wiww become hostiwe to you, as you howd a $commissionFaction commission.
+
+Youw standing with $theOtherFaction wiww be mostwy westowed aftew hostiwities concwude.",,graphics/icons/intel/faction_conflict.png,important,,
+faction_hostility,start,,,news,Open hostiwities between $theOneFaction and $theTwoFaction,"The genyewaw state of cowd waw between $theOneFaction and $theTwoFaction has given way to open hostiwities.
+
+Howevew, majow fweet actions ow attacks on popuwation centews awe nyot expected, and most expewts pwedict that some sowt of peace agweement wiww be made within a cycwe.",,,graphics/icons/intel/faction_conflict.png,important,,
+faction_hostility,end,,,news,Awmistice between $theOneFaction and $theTwoFaction,"An accowd has been weached thwough back channyews, open hostiwities between $theOneFaction and $theTwoFaction have ceased, and nyowmaw twade has wesumed.",Open hostiwities awe ovew.,,graphics/icons/intel/faction_peace.png,important,,
+,,,,,,,,,,,,
+# civil disorder,,,,,,,,,,,,
+civil_disorder,possible1,,,player_intel,Possibwe civiw disowdew $onOrAt $market,Thewe awe indicatows that civiw disowdew is wikewy to occuw $onOrAt $market within a few weeks.,Decweased pwoduction $onOrAt $market.,,,,,
+civil_disorder,possible2,,,news,Possibwe civiw disowdew $onOrAt $market,A pwominyent intewwectuaw $onOrAt $market weweased a statement cwiticaw of $rulingfaction and was awwested showtwy theweaftew. $rulingfaction officiaws have made nyo comment.,Incweased signs of civiw disowdew $onOrAt $market.,,,,,
+civil_disorder,possible3,,,news,Possibwe civiw disowdew $onOrAt $market,"A pwotest was hewd outside wocaw $rulingFaction adminyistwation headquawtews $onOrAt $market. The cwowd was dispewsed by authowities, wesuwting in sevewaw deaths.",Incweased signs of civiw disowdew $onOrAt $market.,,,,,various factions may comment on this event
+civil_disorder,possible3,,HOSTILE,"tritachyon_public,
+hegemony_public",Possibwe civiw disowdew $onOrAt $market,$faction has weweased a statement condemnying the unnyecessawiwy hawsh $rulingFaction cwackdown on pwotests $onOrAt $market.,Incweased signs of civiw disowdew $onOrAt $market.,,,,,possible reaction to the above event
+civil_disorder,possible3,,FRIENDLY,"tritachyon_public,
+hegemony_public",Possibwe civiw disowdew $onOrAt $market,"$faction has weweased a statement condemnying the pwotests taking pwace $onOrAt $market, uwging theiw weadews to tuwn themsewves in to $rulingFaction officiaws.",Incweased signs of civiw disowdew $onOrAt $market.,,,,,possible reaction to the above event
+civil_disorder,possible4,,,news,Possibwe civiw disowdew $onOrAt $market,Wocaw $rulingfaction authowities $onOrAt $market have annyounced that sevewaw pwominyent anti-govewnment agitatows have been awwested.,Incweased signs of civiw disowdew $onOrAt $market.,,,,,
+civil_disorder,likely,,,player_intel,Wikewy civiw disowdew $onOrAt $market,Thewe awe indicatows that civiw disowdew is aww but cewtain to occuw $onOrAt $market within a few weeks.,Decweased pwoduction $onOrAt $market.,,,,,
+civil_disorder,start1,,,news,Civiw disowdew $onOrAt $market,A genyewaw stwike has bwoken out $onOrAt $market. $rulingfaction officiaws have weweased a statement condemnying the actions of a few anti-govewnment wingweadews. ,Decweased pwoduction $onOrAt $market.,,,,,
+civil_disorder,start2,,,news,Civiw disowdew $onOrAt $market,A sewies of bombings tawgeting $wuwingpawty faciwities $onOrAt $market has taken pwace. An officiaw statement was made pwomising that the pewpetwatows wouwd be bwought to justice.,Decweased pwoduction $onOrAt $market.,,,,,
+civil_disorder,start3,,,news,Civiw disowdew $onOrAt $market,Acts of sabotage have bwought majow pwoduction centews $onOrAt $market to a standstiww.,Decweased pwoduction $onOrAt $market.,,,,,
+civil_disorder,ending1,,,news,,Mawtiaw waw has been decwawed $onOrAt $market to suppwess civiw disowdew.,Pwoduction wiww wikewy soon wetuwn to nyowmaw wevews.,,,,,
+civil_disorder,ending2,,,news,,$rulingfaction officiaws $onOrAt $market have annyounced waids on sevewaw opposition safehouses. The wesuwting shootout wed to scowes of casuawties.,Pwoduction wiww wikewy soon wetuwn to nyowmaw wevews.,,,,,
+civil_disorder,ending3,,,news,,Mawinyes have been depwoyed to majow popuwation centews $onOrAt $market to queww the civiw disowdew.,Pwoduction wiww wikewy soon wetuwn to nyowmaw wevews.,,,,,
+civil_disorder,ending4,,,news,,Tawks have openyed between $rulingFaction and opposition weadews $onOrAt $market.,Pwoduction wiww wikewy soon wetuwn to nyowmaw wevews.,,,,,
+civil_disorder,end1,,,news,,Mawtiaw waw has been wifted as peace wetuwns to $market.,Pwoduction is back to nyowmaw wevews.,,,,,
+civil_disorder,end2,,,news,,Mawinyes have been withdwawn fwom majow popuwation centews as peace wetuwns to $market.,Pwoduction is back to nyowmaw wevews.,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+sindria_terrorists,likely,,,sindrian_diktat_internal,Possibwe tewwowist attacks on Sindwia,Intewwigence indicates that tewwowists have obtainyed a cache of iwwegaw weapons and intend to use them against govewnment tawgets.,Wikewy decweased pwoduction on Sindwia.,,,,,precursor to terrorist attacks
+sindria_terrorists,start1,,,news,Tewwowist attacks on Sindwia,A pubwic monyument commemowating the Wion's miwitawy victowies was destwoyed in a midnyight bombing that was swiftwy condemnyed by Diktat officiaws. A tempowawy cuwfew has been imposed in the majow hive-cities and secuwity patwows incweased.,Decweased pwoduction on Sindwia.,,,,,start option 1
+sindria_terrorists,start2,,,news,Tewwowist attacks on Sindwia,Sevewaw bombs wewe found and defused in key Sindwian industwiaw centews. Faciwities aww ovew the pwanyet have been shut down and seawched fow bombs. A Diktat officiaw annyounced the assembwy of a speciaw taskfowce to find the pewpetwatows.,Decweased pwoduction on Sindwia.,,,,,start option 2
+sindria_terrorists,start3,,,news,Tewwowist attacks on Sindwia,A sewies of bombings tawgeting Diktat adminyistwation offices has taken pwace on Sindwia. A statement weweased by Diktat officiaws pwomised that the tewwowists wouwd be bwought swift justice.,Decweased pwoduction on Sindwia.,,,,,start option 3
+sindria_terrorists,continued1,,,news,Tewwowist attacks on Sindwia,Sevewaw expwosions wocked the uppew wevews of majow hive cities; tewwowist weadews have weweased a howovid statement saying that the bombings wiww continyue untiw cewtain powiticaw pwisonyews hewd on Cwuow awe weweased by Diktat authowities. ,Decweased pwoduction on Sindwia.,,,,,"may proceed through zero or more of the ""continued"" event stages before reaching one of the concluding stages."
+sindria_terrorists,continued2,,,news,Tewwowist attacks on Sindwia,"Tewwowist gunmen stowmed a Diktat nyavaw wecwuitment centew today. Aww wewe kiwwed in a fiwefight that waged fow houws, weading to scowes of civiwian casuawties. Diktat officiaws have condemnyed the cowawdwy act.",Decweased pwoduction on Sindwia.,,,,,""""
+sindria_terrorists,concluding1,,,news,Tewwowist attacks ending on Sindwia,A tewwowist safehouse was stowmed by secuwity fowces but found abandonyed. Diktat Intewwigence officiaws cwaim that they have found evidence which wiww hewp twack down the tewwowists.,Pwoduction on Sindwia wiww soon wetuwn to nyowmaw wevews.,,,,,
+sindria_terrorists,concluding2,,,news,Tewwowist attacks ending on Sindwia,A tewwowist henchman was captuwed and intewwogated by Diktat intewwigence. Officiaws state that the hunt fow the tewwowist weadews is nyeawing an end.,Pwoduction on Sindwia wiww soon wetuwn to nyowmaw wevews.,,,,,
+sindria_terrorists,end1,,,news,Tewwowist attacks on Sindwia stopped.,"Sevewaw tewwowist safehouses wewe waided by Diktat secuwity fowces in a sudden eawwy mownying opewation. Impwopewwy stowed munyitions detonyated, say officiaws, weaving nyo suwvivows.",Pwoduction wevews wetuwn to nyowmaw on Sindwia.,,,,,
+sindria_terrorists,end2,,,news,Tewwowist attacks on Sindwia stopped.,Diktat secuwity fowces have captuwed tewwowist weadews attempting to fwee Sindwia. Officiaws have stated that aftew they awe intewgated by Diktat Intewwigence thewe wiww be a swift twiaw and pubwic execution.,Pwoduction wevews wetuwn to nyowmaw on Sindwia.,,,,,"Like a Cardassian novel, everyone arrested in Sindria is guilty - the only question remains: of what?"

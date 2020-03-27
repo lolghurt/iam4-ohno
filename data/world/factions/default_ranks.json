@@ -1,0 +1,71 @@
+{
+	"ranks":{
+		"factionLeader":{"name":"High Commandew"},
+	
+		"spaceSailor":{"name":"Spacew"},
+		"spaceChief":{"name":"Chief"},
+		"spaceEnsign":{"name":"Ensign"},
+		"spaceLieutenant":{"name":"Wieutenyant"},
+		"spaceCommander":{"name":"Commandew"},
+		"spaceCaptain":{"name":"Captain"},
+		"spaceAdmiral":{"name":"Admiwaw"},
+		"spaceMarshal":{"name":"Space Mawshaw"},
+		
+		"groundPrivate":{"name":"Pwivate"},
+		"groundSergeant":{"name":"Sewgeant"},
+		"groundLieutenant":{"name":"Wieutenyant"},
+		"groundCaptain":{"name":"Captain"},
+		"groundMajor":{"name":"Majow"},
+		"groundColonel":{"name":"Cowonyew"},
+		"groundGeneral":{"name":"Genyewaw"},
+		
+		"citizen":{"name":"Citizen"},
+		"agent":{"name":"Agent"},
+		
+		"pilot":{"name":"Piwot"},
+	},
+	
+	"posts":{
+		"factionLeader":{"name":"High Commandew"},
+	
+		"patrolCommander":{"name":"Patwow Commandew"},
+		"fleetCommander":{"name":"Fweet Commandew"},
+		
+		"baseCommander":{"name":"Base Commandew"},
+		"stationCommander":{"name":"Station Commandew"},
+		"outpostCommander":{"name":"Outpost Commandew"},
+		"portmaster":{"name":"Powtmastew"},
+		
+		"supplyOfficer":{"name":"Quawtewmastew"},
+		"supplyManager":{"name":"Suppwy Manyagew"},
+		"medicalSupplier":{"name":"Medicaw Suppwiew"},
+		
+		"administrator":{"name":"Adminyistwatow"},
+		"freeAdmin":{"name":"Fweewance Adminyistwatow"},
+		
+		"trader":{"name":"Twadew"},
+		"merchant":{"name":"Mewchant"},
+		"investor":{"name":"Investow"},
+		"commodities_agent":{"name":"Commodities Agent"},
+		
+		"shady":{"name":"Shady Chawactew"},
+		"gangster":{"name":"Gangstew"},
+		"smuggler":{"name":"Smuggwew"},
+		"fence":{"name":"Fence"},
+		
+		
+		"citizen":{"name":"Citizen"},
+		
+		"mercenary":{"name":"Mewcenawy Officew"},
+		
+		"investigator":{"name":"Chief Investigatow"},
+		"agent":{"name":"Agent"},
+	},
+}
+
+
+
+
+
+
+

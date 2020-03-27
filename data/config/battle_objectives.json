@@ -1,0 +1,11 @@
+{
+	"nav_buoy":{
+		"name":"Nyav Buoy",
+	},
+	"sensor_array":{
+		"name":"Sensow Jammew",
+	},
+	"comm_relay":{
+		"name":"Comm Weway",
+	},
+}

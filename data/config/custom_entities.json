@@ -1,0 +1,208 @@
+{
+	"comm_relay":{
+		"defaultName":"Comm Weway", # used if name=null in addCustomEntity()
+		"nameInText":"comm weway",
+		"shortName":"weway",
+	},
+	"nav_buoy":{
+		"defaultName":"Nyav Buoy", # used if name=null in addCustomEntity()
+		"nameInText":"nyav buoy",
+	},
+	"sensor_array":{
+		"defaultName":"Sensow Awway", # used if name=null in addCustomEntity()
+		"nameInText":"sensow awway",
+		"shortName":"awway",
+	},
+	"comm_relay_makeshift":{
+		"defaultName":"Makeshift Comm Weway",
+	},
+	"nav_buoy_makeshift":{
+		"defaultName":"Makeshift Nyav Buoy",
+	},
+	"sensor_array_makeshift":{
+		"defaultName":"Makeshift Sensow Awway",
+	},
+	
+	"stable_location":{
+		"defaultName":"Stabwe Wocation", # used if name=null in addCustomEntity()
+		"nameInText":"stabwe wocation",
+		"shortName":"stabwe wocation",
+	},
+	"inactive_gate":{
+		"defaultName":"Inyactive Gate", # used if name=null in addCustomEntity()
+		"nameInText":"inyactive gate",
+	},
+	
+	"station_sporeship_derelict":{
+		"defaultName":"Dewewict Spoweship Station",
+	},
+
+	"stellar_mirror":{
+		"defaultName":"Stewwaw Miwwow",
+	},
+	
+	"stellar_shade":{
+		"defaultName":"Stewwaw Shade",
+	},
+	
+	"station_built_from_industry":{
+		"defaultName":"Owbitaw Station",
+	},
+
+	"atlantic_label":{
+		"defaultName":"Atwantian Cwoud",
+	},
+	
+	"persean_label":{
+		"defaultName":"The Weague Wowwds",
+	},
+
+	"luddic_label":{
+		"defaultName":"Piwgwim's Path",
+	},
+
+	"opabyss_label":{
+		"defaultName":"Owion-Perseus Abyss",
+	},
+
+	"telmun_label":{
+		"defaultName":"Tewmun Mowecuwaw Cwoud",
+	},
+	
+	"cathedral_label":{
+		"defaultName":"Cathedwaw Nyebuwa",
+	},
+	
+	"core_label":{
+		"defaultName":"The Cowe Wowwds",
+	},
+
+
+
+
+	# procgen-related salvage things
+	
+	"derelict_probe":{
+		"defaultName":"Domain-ewa Pwobe", # used if name=null in addCustomEntity()
+		"nameInText":"Domain-ewa pwobe",
+		"shortName":"pwobe",
+	},
+
+
+	"derelict_survey_ship":{
+		"defaultName":"Domain-ewa Suwvey Ship", # used if name=null in addCustomEntity()
+		"nameInText":"Domain-ewa suwvey ship",
+		"shortName":"suwvey ship",
+	},
+	
+	"derelict_mothership":{
+		"defaultName":"Domain-ewa Mothewship", # used if name=null in addCustomEntity()
+		"nameInText":"Domain-ewa mothewship",
+		"shortName":"mothewship",
+	},
+	
+	"derelict_cryosleeper":{
+		"defaultName":"Domain-ewa Cwyosweepew", # used if name=null in addCustomEntity()
+		"nameInText":"Domain-ewa cwyosweepew",
+		"shortName":"cwyosweepew",
+	},
+	
+	
+	# not actually added to campaign engine
+	# only used as "scavenge debris field" dialog's interaction target
+	"debris_field_shared":{
+		"defaultName":"Debwis Fiewd", # used if name=null in addCustomEntity()
+		"nameInText":"debwis fiewd",
+		"shortName":"debwis",
+	},
+	
+	
+	"wreck":{
+		"defaultName":"Dewewict Ship", # used if name=null in addCustomEntity()
+		"nameInText":"dewewict ship",
+		"shortName":"ship",
+	},
+	
+	
+	"supply_cache":{
+		"defaultName":"Suppwy Cache", # used if name=null in addCustomEntity()
+		"nameInText":"suppwy cache",
+		"shortName":"suppwy cache",
+	},
+	
+	"technology_cache":{
+		"defaultName":"Technowogy Cache",
+		"nameInText":"technowogy cache",
+		"shortName":"technowogy cache",
+	},
+	
+	"supply_cache_small":{
+		"defaultName":"Minor Suppwy Cache",
+		"nameInText":"minor suppwy cache",
+		"shortName":"suppwy cache",
+	},
+	
+	"station_mining":{
+		"defaultName":"Minying Station", # used if name=null in addCustomEntity()
+		"nameInText":"minying station",
+	},
+	
+	"station_research":{
+		"defaultName":"Weseawch Station", # used if name=null in addCustomEntity()
+		"nameInText":"weseawch station",
+	},
+	
+	"orbital_habitat":{
+		"defaultName":"Owrbitaw Habitat", # used if name=null in addCustomEntity()
+		"nameInText":"owbitaw habitat",
+		"shortName":"owbitaw habitat",
+	},
+
+
+	"cargo_pods":{
+		"defaultName":"Cawgo Pods", # used if name=null in addCustomEntity()
+		"nameInText":"cawgo pods",
+		"shortName":"cawgo pods",
+		"isOrAre":"awe",
+	},
+
+
+	"warning_beacon":{
+		"defaultName":"Wawnying Beacon",
+	},
+	
+	# New station stuff which uses techlevels. Will clean up old stuff once this is all happy. -D
+	# lowtech stations
+	"station_lowtech1":{
+		"defaultName":"Owbitaw Station",
+	},
+	"station_lowtech2":{
+		"defaultName":"Battwestation",
+	},
+	"station_lowtech3":{
+		"defaultName":"Staw Fowtwess",
+	},
+	# midline stations 
+	"station_midline1":{
+		"defaultName":"Owbitaw Station",
+	},
+	"station_midline2":{
+		"defaultName":"Battwestation",
+	},
+	"station_midline3":{
+		"defaultName":"Staw Fowtwess",
+	},
+	
+	# hightech stations
+	"station_hightech1":{
+		"defaultName":"Owbitaw Station",
+	},
+	"station_hightech2":{
+		"defaultName":"Battwestation",
+	},
+	"station_hightech3":{
+		"defaultName":"Staw Fowtwess",
+	},
+}
+
+

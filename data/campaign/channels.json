@@ -1,0 +1,32 @@
+{
+	"player_intel_always":{
+		"name":"Anyawysis & Pwojections",
+	},
+	"player_intel":{
+		"name":"Anyawysis & Pwojections",
+	},
+	"player_comm_sniffer":{
+		"name":"Comm Snyiffew Pwogwam",
+	},
+	"news":{
+		"name":"Wocaw Buwwetin",
+	},
+	"hegemony_public":{
+		"name":"Hegemony Bwoadcast Sewvice",
+	},
+	"hegemony_internal":{
+		"name":"Hegemony Intewwigence",
+	},
+	"tritachyon_public":{
+		"name":"Twi-Tachyon Nyetwowk",
+	},
+	"tritachyon_internal":{
+		"name":"Twi-Tachyon Intewwigence",
+	},
+	"sindrian_diktat_internal":{
+		"name":"Sindwian Diktat Secuwity",
+	},
+}
+
+
+

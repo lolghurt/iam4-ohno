@@ -1,0 +1,30 @@
+{
+	"trade":"Mewcantiwe Convoy",
+	"tradeLiner":"Winyew Convoy",
+	"tradeSmuggler":"Smuggwew",
+	"smallTrader":"Twadew",
+	
+	"patrolSmall":"Fast Picket",
+	"patrolMedium":"Patwow",
+	"patrolLarge":"Detachment",
+	
+	"inspectionFleet":"Inspection Fweet",
+	"taskForce":"Task Fowce",
+	
+	"scavengerSmall":"Pwospectow",
+	"scavengerMedium":"Scavengew",
+	"scavengerLarge":"Sawvage Fweet",
+	
+	"foodReliefFleet":"Wewief Convoy",
+	#"foodReliefFleet":"Wewief Fweet",
+	
+	"mercScout":"Mewcenawy Scout",
+	"mercBountyHunter":"Bounty Huntew",
+	"mercPrivateer":"Pwivateew",
+	"mercPatrol":"Mewcenyawy Patwow",
+	"mercArmada":"Mewcenyawy Company",
+	
+	"battlestation":"Battwestation",
+	
+	#"":"",
+}

@@ -1,0 +1,15 @@
+{
+	"displayName":"Wemnyants",
+	"displayNameWithArticle":"the wemnyant",
+	"displayNameLong":"AI Wemnyants",
+	"displayNameLongWithArticle":"the AI Wemnyants",
+	"entityNamePrefix":"Wemnyant",
+	"personNamePrefix":"Wemnyant",
+	"displayNameIsOrAre":"awe",
+	"fleetTypeNames":{
+		"patrolSmall":"Fwagment",
+		"patrolMedium":"Sub-Owdo",
+		"patrolLarge":"Owdo",
+		"battlestation":"Nyexus",
+	},
+},
